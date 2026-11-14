@@ -2,9 +2,11 @@
 
 سورس این انتشار، ریشهٔ پروژهٔ مستقل `mahsa-website-final` و طراحی فعلی «Fluorescence Lab» است. با درخواست صریح کاربر، مقصد جاری مخزن خصوصی `Raminyazdani/mahsa-website` و پروژهٔ Vercel با نام `mahsa-website` در تیم `ramin-yazdanis-projects` است. سایت و محتوای آن همچنان مربوط به مهسا است. نسخهٔ قدیمی در `_archive/` سابقهٔ محلی است و در build یا upload وارد نمی‌شود. رسید نگه‌داری بایت‌های منبع نسخهٔ اولیه در `_archive/design-v1-2026-11-14/docs/source-preservation.json` در Git باقی می‌ماند.
 
-## وضعیت مقصد جاری
+## مقصد جاری و ثبت انتشار نخست
 
-هویت GitHub با نام `Raminyazdani` و شناسهٔ `68568787` و تیم Vercel با scope `ramin-yazdanis-projects` و شناسهٔ `team_t1y5QDuakPdppOy5zuZLx66A` تأیید شده‌اند. مخزن خصوصی [Raminyazdani/mahsa-website](https://github.com/Raminyazdani/mahsa-website) ایجاد شده و `origin` همین پروژه به آن اشاره می‌کند؛ remote مهسا جدا حفظ شده است. ایجاد پروژهٔ جدید Vercel، اتصال Git و Ready شدن انتشار این مقصد هنوز در این checkpoint تأیید نشده‌اند. انتشار خودکار باید با push به `main` و مشاهدهٔ deployment متناظر اثبات شود.
+سایت در [mahsa-website.vercel.app](https://mahsa-website.vercel.app) منتشر شده است. هویت GitHub با نام `Raminyazdani` و شناسهٔ `68568787` و تیم Vercel با scope `ramin-yazdanis-projects` و شناسهٔ `team_t1y5QDuakPdppOy5zuZLx66A` تأیید شده‌اند. مخزن خصوصی [Raminyazdani/mahsa-website](https://github.com/Raminyazdani/mahsa-website) به پروژهٔ `mahsa-website` با شناسهٔ `prj_0nTkz8I3oc6nQ3Bkof8fLAdtVBWP` متصل و Production Branch برابر `main` است. `origin` محلی همین مخزن است و remote مهسا جدا حفظ شده است.
+
+اولین Production deployment به شناسهٔ `dpl_EobEho8NNSqxCNuThECURwf34yMe` از commit `603e4cf92597c4427bf9e99c6107de9e568713a9` با سازندهٔ `raminyazdani` در API به وضعیت Ready رسیده است. [آدرس مستقل همین deployment](https://mahsa-website-n6x4kmkh9-ramin-yazdanis-projects.vercel.app) نیز ثبت شده است. Node پروژه `24.x` و حفاظت SSO، password و trusted IP غیرفعال است.
 
 ## تاریخچهٔ کوتاه
 
@@ -28,7 +30,7 @@
 
 ## انتشار خودکار با Git
 
-پروژهٔ `mahsa-website` در `ramin-yazdanis-projects` باید به مخزن خصوصی `Raminyazdani/mahsa-website` متصل و Branch Tracking محیط Production برابر `main` باشد. پس از برقرار بودن این اتصال، push به `main` خودکار build و Production deployment ایجاد می‌کند؛ سایر شاخه‌ها Preview می‌گیرند. این رفتار باید با یک push و مشاهدهٔ deployment متناظر اثبات شود. انتشار نسخهٔ تازه پس از موفقیت build انجام می‌شود. GitHub Actions، توکن داخل مخزن یا مرحلهٔ تأیید دستی برای pushهای بعدی این مسیر لازم نیست.
+پروژهٔ `mahsa-website` در `ramin-yazdanis-projects` به مخزن خصوصی `Raminyazdani/mahsa-website` متصل و Branch Tracking محیط Production برابر `main` است. push به `main` نصب از lockfile، آزمون‌ها و build را با `npm run check` اجرا می‌کند و پس از موفقیت، Production deployment تازه روی [دامنهٔ اصلی](https://mahsa-website.vercel.app) منتشر می‌شود؛ سایر شاخه‌ها Preview می‌گیرند. برای بررسی هر به‌روزرسانی، SHA همان push را با deployment متناظر و وضعیت Ready مقایسه کنید. GitHub Actions، توکن داخل مخزن یا مرحلهٔ تأیید دستی برای pushهای بعدی این مسیر لازم نیست.
 
 برای به‌روزرسانی، فایل‌های سورس یا دو JSON اصلی `content/mahsa-cv.{en,de}.json` را ویرایش، بررسی محلی را اجرا و commit را به شاخهٔ مربوط push کنید. سایت از JSON در زمان build ساخته می‌شود؛ ذخیرهٔ محلی فایل به‌تنهایی سایت را تغییر نمی‌دهد.
 

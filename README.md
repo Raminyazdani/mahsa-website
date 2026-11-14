@@ -18,9 +18,9 @@ npm run preview   # سرو کردن خروجی dist
 
 ## انتشار و به‌روزرسانی خودکار
 
-با درخواست صریح کاربر، مقصد جاری انتشار حساب‌های رامین است: مخزن خصوصی [Raminyazdani/mahsa-website](https://github.com/Raminyazdani/mahsa-website) ایجاد شده و پروژهٔ مورد درخواست `mahsa-website` در تیم Vercel با scope `ramin-yazdanis-projects` است. وب‌سایت و محتوای آن همچنان متعلق به مهسا است. تنظیمات build: Node `24.x`، Root Directory ریشهٔ مخزن، نصب با `npm ci --include=dev`، بررسی و ساخت با `npm run check` و انتشار فقط `dist`.
+سایت در [mahsa-website.vercel.app](https://mahsa-website.vercel.app) منتشر شده است. با درخواست صریح کاربر، مقصد جاری حساب‌های رامین است: مخزن خصوصی [Raminyazdani/mahsa-website](https://github.com/Raminyazdani/mahsa-website) و پروژهٔ `mahsa-website` در تیم Vercel با scope `ramin-yazdanis-projects`. وب‌سایت و محتوای آن همچنان متعلق به مهسا است. تنظیمات build: Node `24.x`، Root Directory ریشهٔ مخزن، نصب با `npm ci --include=dev`، بررسی و ساخت با `npm run check` و انتشار فقط `dist`.
 
-ایجاد پروژهٔ جدید Vercel، اتصال Git و Ready شدن انتشار آن هنوز در این checkpoint تأیید نشده‌اند. هدف این است که push به `main` پس از build موفق خودکار سایت را به‌روز کند؛ این مسیر باید با deployment متناظر یک push اثبات شود. تغییر JSON نیز به rebuild و deployment موفق نیاز دارد. وضعیت و شواهد در [راهنمای انتشار](docs/deployment.fa.md) ثبت می‌شوند.
+اتصال Git مخزن به پروژه فعال و Production Branch برابر `main` است. push به `main` مسیر نصب، آزمون‌ها و build را اجرا می‌کند و پس از موفقیت، نسخهٔ تازه روی همین سایت اصلی منتشر می‌شود؛ تغییر JSON نیز از همین مسیر rebuild می‌شود. اولین Production deployment از commit `603e4cf92597c4427bf9e99c6107de9e568713a9` به Ready رسیده است. جزئیات در [راهنمای انتشار](docs/deployment.fa.md) آمده‌اند.
 
 تاریخچه: نسخهٔ ۲ قبلاً با CLI در حساب مهسا روی [mahsa-portfolio-five.vercel.app](https://mahsa-portfolio-five.vercel.app) منتشر شد. مخزن `Mahsanejad/My_website` و پروژهٔ `mahsa7/mahsa-portfolio` همان وضعیت قبلی را حفظ می‌کنند؛ مقصد جاری تغییرات بعدی حساب‌های رامین است.
 

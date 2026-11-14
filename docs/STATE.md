@@ -4,13 +4,14 @@
 
 ## خلاصه
 
-سایت از صفر بازطراحی شد؛ فقط لایهٔ محتوا (JSONها، validation/adapter، مدل `WebsiteContent`)، عکس و زیرساخت آزمون/CV حفظ شد. طراحی نسخهٔ ۱ کامل و دست‌نخورده در پوشهٔ محلی `_archive/design-v1-2026-11-14/` است. کاربر مقصد انتشار را صریحاً به حساب‌های رامین تغییر داد: مخزن خصوصی [Raminyazdani/mahsa-website](https://github.com/Raminyazdani/mahsa-website) ایجاد شده و پروژهٔ Vercel مورد درخواست `mahsa-website` در `ramin-yazdanis-projects` است. وب‌سایت و محتوای مهسا تغییر نکرده‌اند. ایجاد پروژهٔ Vercel، اتصال Git و Ready شدن مقصد جدید در این checkpoint هنوز تأیید نشده‌اند.
+سایت از صفر بازطراحی شد؛ فقط لایهٔ محتوا (JSONها، validation/adapter، مدل `WebsiteContent`)، عکس و زیرساخت آزمون/CV حفظ شد. طراحی نسخهٔ ۱ کامل و دست‌نخورده در پوشهٔ محلی `_archive/design-v1-2026-11-14/` است. با درخواست صریح کاربر، مقصد جاری مخزن خصوصی [Raminyazdani/mahsa-website](https://github.com/Raminyazdani/mahsa-website) و پروژهٔ `mahsa-website` در `ramin-yazdanis-projects` است. سایت در [mahsa-website.vercel.app](https://mahsa-website.vercel.app) منتشر و اتصال Git روی `main` فعال شده است. وب‌سایت و محتوای مهسا تغییر نکرده‌اند.
 
-## مقصد جاری و وضعیت انتقال
+## مقصد جاری و ثبت انتشار نخست
 
 - هویت تأییدشدهٔ GitHub برای مقصد جاری: `Raminyazdani`، شناسهٔ `68568787`؛ مخزن خصوصی [Raminyazdani/mahsa-website](https://github.com/Raminyazdani/mahsa-website) ایجاد شده است. `origin` محلی به این مقصد تغییر کرده و remote مهسا جدا حفظ شده؛ هویت commit و credential helper فقط برای همین مخزن تنظیم شده‌اند و Git سراسری تغییر نکرده است.
-- تیم تأییدشدهٔ Vercel: `ramin-yazdanis-projects` با شناسهٔ `team_t1y5QDuakPdppOy5zuZLx66A`؛ پروژهٔ مورد درخواست `mahsa-website` است. استفاده از این حساب‌ها برای همین انتشار صریحاً مجاز شده است.
-- انتشار مقصد جدید و اتصال خودکار به `main` هنوز باید با Ready شدن deployment و رویداد Git مربوط به push تأیید شوند. تا آن زمان، URL یا موفقیت انتشار مقصد جدید ادعا نمی‌شود.
+- تیم تأییدشدهٔ Vercel: `ramin-yazdanis-projects` با شناسهٔ `team_t1y5QDuakPdppOy5zuZLx66A`؛ پروژهٔ `mahsa-website` با شناسهٔ `prj_0nTkz8I3oc6nQ3Bkof8fLAdtVBWP` ایجاد و به همین مخزن متصل شده است. استفاده از این حساب‌ها برای همین انتشار صریحاً مجاز شده است.
+- اولین deployment مقصد جدید: `dpl_EobEho8NNSqxCNuThECURwf34yMe`، وضعیت واقعی API برابر Ready، محیط `production`، سازنده `raminyazdani` و commit برابر `603e4cf92597c4427bf9e99c6107de9e568713a9`. [دامنهٔ اصلی](https://mahsa-website.vercel.app) و [آدرس مستقل deployment](https://mahsa-website-n6x4kmkh9-ramin-yazdanis-projects.vercel.app) به همین انتشار مربوط‌اند. حفاظت SSO، password و trusted IP در پروژه غیرفعال است.
+- اتصال Git فعال و Production Branch برابر `main` است: هر push مسیر نصب، `npm run check` و build را طی می‌کند و نسخهٔ موفق را روی دامنهٔ اصلی منتشر می‌کند. Node پروژه `24.x` است.
 - پیش از انتقال، `npm run check` با ۴۲ آزمون هم محلی و هم روی Vercel موفق بود. checkout تمیز commit اولیه با `autocrlf=false` و `eol=lf` از lockfile نصب و بررسی شد و دو PDF خروجی دقیقاً با سورس برابر بودند.
 
 ## تاریخچهٔ انتشار در حساب مهسا
@@ -74,4 +75,4 @@ src/render (HTML ایستای هر صفحه در build)  +  src/app (رفتار 
 1. `npm run dev` و بازبینی روی مرورگر خودتان (دسکتاپ و گوشی)؛ هر جایی که حس «آزمایشگاه زنده» کم است را یادداشت کنید.
 2. در صورت تمایل، دسترسی به `D:\mahsa_website` یا یک اسکرین‌شات از ژل محبوب بدهید تا جزئیات آن در صحنهٔ فعلی ادغام شود.
 3. با هر تغییر محتوا یا قالب CV: `cv:pdf` → `cv:verify` → دیدن همهٔ صفحه‌ها → `cv:stamp` → `build`.
-4. تکمیل انتشار در `ramin-yazdanis-projects/mahsa-website` و تأیید انتشار خودکار از `Raminyazdani/mahsa-website` با push به `main`؛ خروجی قابل انتشار پوشهٔ `dist` است.
+4. به‌روزرسانی‌های بعدی از `Raminyazdani/mahsa-website` با push به `main` به پروژهٔ `ramin-yazdanis-projects/mahsa-website` می‌روند؛ خروجی قابل انتشار پوشهٔ `dist` است.
