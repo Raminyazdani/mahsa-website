@@ -18,9 +18,11 @@ npm run preview   # سرو کردن خروجی dist
 
 ## انتشار و به‌روزرسانی خودکار
 
-نسخهٔ ۲ روی [سایت مهسا](https://mahsa-portfolio-five.vercel.app) منتشر شده و سورس آن در مخزن [Mahsanejad/My_website](https://github.com/Mahsanejad/My_website) روی شاخهٔ `main` است. پروژهٔ موجود `mahsa7/mahsa-portfolio` حفظ شده است. تنظیمات تأییدشده: Node `24.x`، Root Directory ریشهٔ مخزن، نصب با `npm ci --include=dev`، بررسی و ساخت با `npm run check` و انتشار فقط `dist`.
+با درخواست صریح کاربر، مقصد جاری انتشار حساب‌های رامین است: مخزن خصوصی [Raminyazdani/mahsa-website](https://github.com/Raminyazdani/mahsa-website) ایجاد شده و پروژهٔ مورد درخواست `mahsa-website` در تیم Vercel با scope `ramin-yazdanis-projects` است. وب‌سایت و محتوای آن همچنان متعلق به مهسا است. تنظیمات build: Node `24.x`، Root Directory ریشهٔ مخزن، نصب با `npm ci --include=dev`، بررسی و ساخت با `npm run check` و انتشار فقط `dist`.
 
-انتشار فعلی از commit `09d954d9b1c1a149f864646e9831925889a35d0c` با CLI به وضعیت Ready رسیده است. انتشار خودکار با Git هنوز تأیید نشده: ورود GitHub حساب `Mahsanejad` به Vercel متصل شده، اما نصب GitHub App مربوط به Vercel با دسترسی به `My_website` هنوز لازم است؛ سپس اتصال مخزن و انتشار ناشی از push بررسی می‌شود. بعد از تکمیل این اتصال، push به `main` باید پس از build موفق سایت اصلی را به‌روز کند. تغییر JSON نیز به rebuild و deployment موفق نیاز دارد. شواهد انتشار و وضعیت اتصال در [راهنمای انتشار](docs/deployment.fa.md) آمده‌اند.
+ایجاد پروژهٔ جدید Vercel، اتصال Git و Ready شدن انتشار آن هنوز در این checkpoint تأیید نشده‌اند. هدف این است که push به `main` پس از build موفق خودکار سایت را به‌روز کند؛ این مسیر باید با deployment متناظر یک push اثبات شود. تغییر JSON نیز به rebuild و deployment موفق نیاز دارد. وضعیت و شواهد در [راهنمای انتشار](docs/deployment.fa.md) ثبت می‌شوند.
+
+تاریخچه: نسخهٔ ۲ قبلاً با CLI در حساب مهسا روی [mahsa-portfolio-five.vercel.app](https://mahsa-portfolio-five.vercel.app) منتشر شد. مخزن `Mahsanejad/My_website` و پروژهٔ `mahsa7/mahsa-portfolio` همان وضعیت قبلی را حفظ می‌کنند؛ مقصد جاری تغییرات بعدی حساب‌های رامین است.
 
 ## مسیرها
 

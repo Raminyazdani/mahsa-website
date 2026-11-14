@@ -1,14 +1,14 @@
 # انتشار نسخهٔ ۲ مهسا
 
-سورس این انتشار، ریشهٔ پروژهٔ مستقل `mahsa-website-final` و طراحی فعلی «Fluorescence Lab» است. هدف Git، `Mahsanejad/My_website` و هدف Vercel، پروژهٔ موجود `mahsa7/mahsa-portfolio` است. نسخهٔ قدیمی در `_archive/` سابقهٔ محلی است و در build یا upload وارد نمی‌شود. رسید نگه‌داری بایت‌های منبع نسخهٔ اولیه در `_archive/design-v1-2026-11-14/docs/source-preservation.json` در Git باقی می‌ماند.
+سورس این انتشار، ریشهٔ پروژهٔ مستقل `mahsa-website-final` و طراحی فعلی «Fluorescence Lab» است. با درخواست صریح کاربر، مقصد جاری مخزن خصوصی `Raminyazdani/mahsa-website` و پروژهٔ Vercel با نام `mahsa-website` در تیم `ramin-yazdanis-projects` است. سایت و محتوای آن همچنان مربوط به مهسا است. نسخهٔ قدیمی در `_archive/` سابقهٔ محلی است و در build یا upload وارد نمی‌شود. رسید نگه‌داری بایت‌های منبع نسخهٔ اولیه در `_archive/design-v1-2026-11-14/docs/source-preservation.json` در Git باقی می‌ماند.
 
-## وضعیت انتشار تأییدشده
+## وضعیت مقصد جاری
 
-نسخهٔ ۲ در [دامنهٔ اصلی مهسا](https://mahsa-portfolio-five.vercel.app) عمومی و بدون نیاز به ورود در دسترس است. سورس commit `09d954d9b1c1a149f864646e9831925889a35d0c` روی `main` در [Mahsanejad/My_website](https://github.com/Mahsanejad/My_website) قرار دارد. Production deployment به شناسهٔ `dpl_3mtKYVGT2JbVu1xDA5jioyiVTpi4` در همان پروژهٔ `mahsa7/mahsa-portfolio` با وضعیت Ready و منبع `cli` منتشر شده و `githubCommitSha` آن با همین commit برابر است. [آدرس مستقل deployment](https://mahsa-portfolio-gyyyyqde4-mahsa7.vercel.app) نیز تأیید شده است.
+هویت GitHub با نام `Raminyazdani` و شناسهٔ `68568787` و تیم Vercel با scope `ramin-yazdanis-projects` و شناسهٔ `team_t1y5QDuakPdppOy5zuZLx66A` تأیید شده‌اند. مخزن خصوصی [Raminyazdani/mahsa-website](https://github.com/Raminyazdani/mahsa-website) ایجاد شده و `origin` همین پروژه به آن اشاره می‌کند؛ remote مهسا جدا حفظ شده است. ایجاد پروژهٔ جدید Vercel، اتصال Git و Ready شدن انتشار این مقصد هنوز در این checkpoint تأیید نشده‌اند. انتشار خودکار باید با push به `main` و مشاهدهٔ deployment متناظر اثبات شود.
 
-نصب و `npm run check` شامل ۴۲ آزمون روی Vercel موفق بودند. ۳۳ بررسی HTTP عمومی شامل ریشه و ۲۴ صفحهٔ HTML، JavaScript و دو chunk، دو PDF با بایت‌های برابر سورس و سه 404 مورد انتظار موفق شدند. مرورگر نیز EN/DE، دو نور، Portfolio/Laboratory و CV را بدون نیاز به ورود یا خطای console بررسی کرد. شناسهٔ پروژهٔ حفظ‌شده `prj_UUGMxPFO3avQON81H1kniDYbwbbQ` است.
+## تاریخچهٔ کوتاه
 
-انتشار خودکار Git هنوز تأیید نشده است. GitHub Login حساب `Mahsanejad` در Vercel مهسا متصل شده، اما اتصال مخزن هنوز به نصب GitHub App مربوط به Vercel نیاز دارد. پس از نصب و اتصال مخزن، deployment ناشی از push باید مشاهده شود. انتشار فعلی CLI است.
+نسخهٔ ۲ قبلاً از مخزن `Mahsanejad/My_website` و commit `09d954d9b1c1a149f864646e9831925889a35d0c` با CLI در `mahsa7/mahsa-portfolio` منتشر شد. deployment برابر `dpl_3mtKYVGT2JbVu1xDA5jioyiVTpi4` با وضعیت Ready و دامنهٔ [mahsa-portfolio-five.vercel.app](https://mahsa-portfolio-five.vercel.app) بود. نصب و check شامل ۴۲ آزمون، ۳۳ بررسی HTTP و مرورگر زنده موفق بودند. این مقصد پس از درخواست جدید در همان وضعیت باقی می‌ماند و هدف جاری انتشار نیست.
 
 ## تنظیمات build
 
@@ -28,7 +28,7 @@
 
 ## انتشار خودکار با Git
 
-برای تکمیل این مسیر، [GitHub App مربوط به Vercel](https://github.com/apps/vercel) باید روی حساب `Mahsanejad` با دسترسی به `My_website` نصب شود؛ ورود GitHub به Vercel قبلاً متصل شده است. سپس پروژه باید به مخزن `Mahsanejad/My_website` متصل و Branch Tracking محیط Production برابر `main` باشد. پس از برقرار بودن این اتصال، push به `main` خودکار build و Production deployment ایجاد می‌کند؛ سایر شاخه‌ها Preview می‌گیرند. این رفتار باید با یک push و مشاهدهٔ deployment متناظر اثبات شود. انتشار نسخهٔ تازه پس از موفقیت build انجام می‌شود. GitHub Actions، توکن داخل مخزن یا مرحلهٔ تأیید دستی برای pushهای بعدی این مسیر لازم نیست.
+پروژهٔ `mahsa-website` در `ramin-yazdanis-projects` باید به مخزن خصوصی `Raminyazdani/mahsa-website` متصل و Branch Tracking محیط Production برابر `main` باشد. پس از برقرار بودن این اتصال، push به `main` خودکار build و Production deployment ایجاد می‌کند؛ سایر شاخه‌ها Preview می‌گیرند. این رفتار باید با یک push و مشاهدهٔ deployment متناظر اثبات شود. انتشار نسخهٔ تازه پس از موفقیت build انجام می‌شود. GitHub Actions، توکن داخل مخزن یا مرحلهٔ تأیید دستی برای pushهای بعدی این مسیر لازم نیست.
 
 برای به‌روزرسانی، فایل‌های سورس یا دو JSON اصلی `content/mahsa-cv.{en,de}.json` را ویرایش، بررسی محلی را اجرا و commit را به شاخهٔ مربوط push کنید. سایت از JSON در زمان build ساخته می‌شود؛ ذخیرهٔ محلی فایل به‌تنهایی سایت را تغییر نمی‌دهد.
 
@@ -50,7 +50,7 @@ HTML و فایل‌هایی با نام ثابت، از جمله `app.js`، CSS�
 
 `.gitignore` و `.vercelignore` وابستگی‌های نصب‌شده، `dist/`، `output/`، آرشیو طراحی، bundleهای تحویل، screenshotها و فایل‌های authentication را کنار می‌گذارند. `content/`، `scripts/`، `tests/`، `public/`، مجوز فونت‌ها و رسیدهای PDF باقی می‌مانند؛ `src/content/generated.ts` در build از دو JSON معتبر دوباره ساخته می‌شود. هیچ ignore کلی برای `docs/`، `*.json` یا `*.pdf` وجود ندارد.
 
-احراز هویت GitHub و Vercel بیرون مخزن و مختص حساب مهسا نگه‌داری می‌شود. پیش از هر push یا تغییر تنظیمات انتشار، هویت واقعی و نام دقیق مخزن، owner/project و محیط هدف بررسی می‌شود. وجود session حساب دیگر یا فایل `.vercel/project.json` به‌تنهایی اثبات هدف نیست؛ تنظیمات Git سراسری و sessionهای موجود حساب‌های دیگر تغییر نمی‌کنند.
+کاربر استفاده از حساب GitHub رامین (`Raminyazdani`) و تیم Vercel او (`ramin-yazdanis-projects`) را برای همین پروژه صریحاً مجاز کرده است. credentialها بیرون مخزن می‌مانند. پیش از هر push یا تغییر تنظیمات انتشار، هویت واقعی و نام دقیق مخزن، owner/project و محیط هدف بررسی می‌شود؛ انتشار جاری فقط به مقصد جدید می‌رود. فایل `.vercel/project.json` به‌تنهایی اثبات هدف نیست. تنظیمات Git سراسری و sessionهای حساب‌های دیگر تغییر نمی‌کنند و حساب‌ها، مخزن و پروژهٔ قبلی مهسا در وضعیت پیشین باقی می‌مانند.
 
 ## بررسی انتشار
 
