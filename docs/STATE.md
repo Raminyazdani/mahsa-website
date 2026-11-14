@@ -4,7 +4,16 @@
 
 ## خلاصه
 
-سایت از صفر بازطراحی شد؛ فقط لایهٔ محتوا (JSONها، validation/adapter، مدل `WebsiteContent`)، عکس و زیرساخت آزمون/CV حفظ شد. طراحی نسخهٔ ۱ کامل و دست‌نخورده در `_archive/design-v1-2026-11-14/` است. هیچ انتشار، push، تغییر دامنه، Vercel یا حسابی انجام نشده است. پروژه‌های `D:\mahsa_website` و `D:\ramin-site` باز یا تغییر داده نشدند.
+سایت از صفر بازطراحی شد؛ فقط لایهٔ محتوا (JSONها، validation/adapter، مدل `WebsiteContent`)، عکس و زیرساخت آزمون/CV حفظ شد. طراحی نسخهٔ ۱ کامل و دست‌نخورده در پوشهٔ محلی `_archive/design-v1-2026-11-14/` است. نسخهٔ ۲ با درخواست صریح کاربر به مخزن مهسا push و در پروژهٔ موجود Vercel او منتشر شد. سایت عمومی [mahsa-portfolio-five.vercel.app](https://mahsa-portfolio-five.vercel.app) است؛ اتصال انتشار خودکار Git هنوز در انتظار تکمیل و اثبات است.
+
+## انتشار تأییدشدهٔ نسخهٔ ۲
+
+- هویت GitHub: `Mahsanejad`، شناسهٔ `121395773`؛ مجوز admin/push روی [Mahsanejad/My_website](https://github.com/Mahsanejad/My_website) تأیید شد. commit اولیهٔ نسخهٔ ۲، `09d954d9b1c1a149f864646e9831925889a35d0c`، روی `main` push شد و نویسندهٔ آن در GitHub همان حساب مهسا است.
+- هویت Vercel: `mahsanejad77-7562`؛ همان پروژهٔ `mahsa7/mahsa-portfolio` با شناسهٔ `prj_UUGMxPFO3avQON81H1kniDYbwbbQ` حفظ شد. احراز هویت مختص مهسا بیرون مخزن است؛ sessionهای حساب‌های دیگر جایگزین نشدند.
+- Production deployment: `dpl_3mtKYVGT2JbVu1xDA5jioyiVTpi4`، وضعیت Ready، منبع `cli` و `githubCommitSha` برابر commit بالا. [آدرس همین deployment](https://mahsa-portfolio-gyyyyqde4-mahsa7.vercel.app) و [دامنهٔ اصلی تأییدشده](https://mahsa-portfolio-five.vercel.app) نسخهٔ تازه را سرو می‌کنند.
+- API پروژه Node `24.x`، نصب `npm ci --include=dev`، build با `npm run check` و خروجی `dist` را تأیید کرد. نصب و check کامل با ۴۲ آزمون روی Vercel موفق بودند. checkout تمیز محلی همین commit با `autocrlf=false` و `eol=lf` هم از lockfile نصب شد و همهٔ بررسی‌ها را گذراند.
+- ۳۳ بررسی HTTP بدون ورود موفق: ریشه و ۲۴ صفحهٔ HTML، `app.js` و دو chunk، دو PDF با بایت‌های برابر سورس، و سه پاسخ 404 مورد انتظار از جمله `.env.local` و JSON خام. مرورگر زنده EN/DE، روشن/تاریک، Portfolio/Laboratory و CV را بدون نیاز به ورود یا خطای console بررسی کرد.
+- انتشار خودکار Git هنوز فعال و اثبات‌شده نیست: GitHub Login مربوط به `Mahsanejad` اکنون به Vercel متصل است، اما API اتصال مخزن نصب GitHub integration را لازم اعلام می‌کند. نصب [GitHub App مربوط به Vercel](https://github.com/apps/vercel) با دسترسی به `My_website` در انتظار تکمیل است. سپس اتصال مخزن و Production Branch برابر `main` باید با deployment ناشی از push تأیید شود. Ready بودن انتشار فعلی CLI، شاهد انتشار خودکار نیست.
 
 ## تصمیم‌های اصلی
 
@@ -49,7 +58,7 @@ src/render (HTML ایستای هر صفحه در build)  +  src/app (رفتار 
 - عکس فقط ۲۶۶×۲۶۶ پیکسل است؛ به همین دلیل کوچک نمایش داده می‌شود. عکس بزرگ‌تر کیفیت کارت و CV را بهتر می‌کند.
 - Publications، references و interests در JSON خالی‌اند و بنابراین ایستگاهی ندارند.
 - این ساخت در یک نشست با Claude (Cowork) انجام شد؛ چرخهٔ چندعاملی و رقابت چند طرح که در brief آمده بود تکرار نشد و یک جهت هنری انتخاب و اجرا شد.
-- `engines` در package.json نسخهٔ Node 24.13 را می‌خواهد؛ build عملاً با Node 22.18+ هم اجرا شد.
+- محیط پشتیبانی‌شده Node شاخهٔ 24، حداقل 24.13.0 و کمتر از 25 است. بررسی checkout تمیز روی Node 24.13.1 و build Vercel روی شاخهٔ 24 موفق بودند.
 
 ## یادداشت تحویل
 
@@ -63,4 +72,4 @@ src/render (HTML ایستای هر صفحه در build)  +  src/app (رفتار 
 1. `npm run dev` و بازبینی روی مرورگر خودتان (دسکتاپ و گوشی)؛ هر جایی که حس «آزمایشگاه زنده» کم است را یادداشت کنید.
 2. در صورت تمایل، دسترسی به `D:\mahsa_website` یا یک اسکرین‌شات از ژل محبوب بدهید تا جزئیات آن در صحنهٔ فعلی ادغام شود.
 3. با هر تغییر محتوا یا قالب CV: `cv:pdf` → `cv:verify` → دیدن همهٔ صفحه‌ها → `cv:stamp` → `build`.
-4. انتشار فقط با درخواست صریح و جداگانه؛ خروجی قابل انتشار پوشهٔ `dist` است.
+4. تکمیل نصب GitHub App مربوط به Vercel با دسترسی به `My_website` و تأیید انتشار خودکار با push به `main`؛ خروجی قابل انتشار پوشهٔ `dist` است.

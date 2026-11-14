@@ -2,6 +2,14 @@
 
 سورس این انتشار، ریشهٔ پروژهٔ مستقل `mahsa-website-final` و طراحی فعلی «Fluorescence Lab» است. هدف Git، `Mahsanejad/My_website` و هدف Vercel، پروژهٔ موجود `mahsa7/mahsa-portfolio` است. نسخهٔ قدیمی در `_archive/` سابقهٔ محلی است و در build یا upload وارد نمی‌شود. رسید نگه‌داری بایت‌های منبع نسخهٔ اولیه در `_archive/design-v1-2026-11-14/docs/source-preservation.json` در Git باقی می‌ماند.
 
+## وضعیت انتشار تأییدشده
+
+نسخهٔ ۲ در [دامنهٔ اصلی مهسا](https://mahsa-portfolio-five.vercel.app) عمومی و بدون نیاز به ورود در دسترس است. سورس commit `09d954d9b1c1a149f864646e9831925889a35d0c` روی `main` در [Mahsanejad/My_website](https://github.com/Mahsanejad/My_website) قرار دارد. Production deployment به شناسهٔ `dpl_3mtKYVGT2JbVu1xDA5jioyiVTpi4` در همان پروژهٔ `mahsa7/mahsa-portfolio` با وضعیت Ready و منبع `cli` منتشر شده و `githubCommitSha` آن با همین commit برابر است. [آدرس مستقل deployment](https://mahsa-portfolio-gyyyyqde4-mahsa7.vercel.app) نیز تأیید شده است.
+
+نصب و `npm run check` شامل ۴۲ آزمون روی Vercel موفق بودند. ۳۳ بررسی HTTP عمومی شامل ریشه و ۲۴ صفحهٔ HTML، JavaScript و دو chunk، دو PDF با بایت‌های برابر سورس و سه 404 مورد انتظار موفق شدند. مرورگر نیز EN/DE، دو نور، Portfolio/Laboratory و CV را بدون نیاز به ورود یا خطای console بررسی کرد. شناسهٔ پروژهٔ حفظ‌شده `prj_UUGMxPFO3avQON81H1kniDYbwbbQ` است.
+
+انتشار خودکار Git هنوز تأیید نشده است. GitHub Login حساب `Mahsanejad` در Vercel مهسا متصل شده، اما اتصال مخزن هنوز به نصب GitHub App مربوط به Vercel نیاز دارد. پس از نصب و اتصال مخزن، deployment ناشی از push باید مشاهده شود. انتشار فعلی CLI است.
+
 ## تنظیمات build
 
 | تنظیم | مقدار |
@@ -20,7 +28,7 @@
 
 ## انتشار خودکار با Git
 
-پروژهٔ Vercel باید به مخزن `Mahsanejad/My_website` متصل و Branch Tracking محیط Production برابر `main` باشد. پس از برقرار بودن این اتصال، push به `main` خودکار build و Production deployment ایجاد می‌کند؛ سایر شاخه‌ها Preview می‌گیرند. انتشار نسخهٔ تازه پس از موفقیت build انجام می‌شود. GitHub Actions، توکن داخل مخزن یا مرحلهٔ تأیید دستی برای این مسیر لازم نیست.
+برای تکمیل این مسیر، [GitHub App مربوط به Vercel](https://github.com/apps/vercel) باید روی حساب `Mahsanejad` با دسترسی به `My_website` نصب شود؛ ورود GitHub به Vercel قبلاً متصل شده است. سپس پروژه باید به مخزن `Mahsanejad/My_website` متصل و Branch Tracking محیط Production برابر `main` باشد. پس از برقرار بودن این اتصال، push به `main` خودکار build و Production deployment ایجاد می‌کند؛ سایر شاخه‌ها Preview می‌گیرند. این رفتار باید با یک push و مشاهدهٔ deployment متناظر اثبات شود. انتشار نسخهٔ تازه پس از موفقیت build انجام می‌شود. GitHub Actions، توکن داخل مخزن یا مرحلهٔ تأیید دستی برای pushهای بعدی این مسیر لازم نیست.
 
 برای به‌روزرسانی، فایل‌های سورس یا دو JSON اصلی `content/mahsa-cv.{en,de}.json` را ویرایش، بررسی محلی را اجرا و commit را به شاخهٔ مربوط push کنید. سایت از JSON در زمان build ساخته می‌شود؛ ذخیرهٔ محلی فایل به‌تنهایی سایت را تغییر نمی‌دهد.
 

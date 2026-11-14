@@ -18,9 +18,9 @@ npm run preview   # سرو کردن خروجی dist
 
 ## انتشار و به‌روزرسانی خودکار
 
-هدف انتشار این نسخه، مخزن `Mahsanejad/My_website` و پروژهٔ موجود `mahsa7/mahsa-portfolio` در Vercel است. تنظیمات build در `vercel.json` ثبت شده‌اند: نصب با `npm ci --include=dev`، بررسی و ساخت با `npm run check` و انتشار فقط `dist`. Node پروژهٔ Vercel باید `24.x` و Root Directory ریشهٔ مخزن باشد.
+نسخهٔ ۲ روی [سایت مهسا](https://mahsa-portfolio-five.vercel.app) منتشر شده و سورس آن در مخزن [Mahsanejad/My_website](https://github.com/Mahsanejad/My_website) روی شاخهٔ `main` است. پروژهٔ موجود `mahsa7/mahsa-portfolio` حفظ شده است. تنظیمات تأییدشده: Node `24.x`، Root Directory ریشهٔ مخزن، نصب با `npm ci --include=dev`، بررسی و ساخت با `npm run check` و انتشار فقط `dist`.
 
-با اتصال Git همان پروژه به این مخزن و انتخاب `main` به‌عنوان Production Branch، هر push به `main` پس از build موفق خودکار روی سایت اصلی منتشر می‌شود؛ شاخه‌های دیگر Preview می‌گیرند. تغییر JSON نیز از همین مسیر rebuild و منتشر می‌شود. نیازهای build، مسیرهای استاتیک، PDF و جداسازی حساب‌ها در [راهنمای انتشار](docs/deployment.fa.md) آمده‌اند.
+انتشار فعلی از commit `09d954d9b1c1a149f864646e9831925889a35d0c` با CLI به وضعیت Ready رسیده است. انتشار خودکار با Git هنوز تأیید نشده: ورود GitHub حساب `Mahsanejad` به Vercel متصل شده، اما نصب GitHub App مربوط به Vercel با دسترسی به `My_website` هنوز لازم است؛ سپس اتصال مخزن و انتشار ناشی از push بررسی می‌شود. بعد از تکمیل این اتصال، push به `main` باید پس از build موفق سایت اصلی را به‌روز کند. تغییر JSON نیز به rebuild و deployment موفق نیاز دارد. شواهد انتشار و وضعیت اتصال در [راهنمای انتشار](docs/deployment.fa.md) آمده‌اند.
 
 ## مسیرها
 
