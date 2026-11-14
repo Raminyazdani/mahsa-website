@@ -1,0 +1,49 @@
+{
+  "description": "فایل‌های منتقل‌شده در آغاز پروژه، با حفظ بایت‌ها و مجوز فونت؛ بدون PDF خام یا اعتبارنامه.",
+  "sourceProject": "mahsa_website",
+  "checkedAt": "2026-11-14T16:09:38.4639351+01:00",
+  "files": [
+    {
+      "source": "content/mahsa-cv.en.json",
+      "destination": "content/mahsa-cv.en.json",
+      "sha256": "027149f4a9ee4641a541592ded9f48a6d2b78d29a7a5608e5b8a460a0babface",
+      "byteIdentical": true
+    },
+    {
+      "source": "content/mahsa-cv.de.json",
+      "destination": "content/mahsa-cv.de.json",
+      "sha256": "2b2d8fd4dd5a4ee44eb25ce51f4112697bebbc528bf98b91aeca4eccdc0c041a",
+      "byteIdentical": true
+    },
+    {
+      "source": "public/images/mahsa-profile.jpg",
+      "destination": "public/images/mahsa-profile.jpg",
+      "sha256": "a3e424e13954c29a0bde2b6e4e4612a2f2ad2e7721a6f3486e8c05c0f07ea13f",
+      "byteIdentical": true
+    },
+    {
+      "source": "public/fonts/inter-latin-variable.woff2",
+      "destination": "public/fonts/inter-latin-variable.woff2",
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "byteIdentical": true
+    },
+    {
+      "source": "public/fonts/instrument-serif-latin-regular.woff2",
+      "destination": "public/fonts/instrument-serif-latin-regular.woff2",
+      "sha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31",
+      "byteIdentical": true
+    },
+    {
+      "source": "public/fonts/LICENSE-Inter.txt",
+      "destination": "public/fonts/LICENSE-Inter.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "byteIdentical": true
+    },
+    {
+      "source": "public/fonts/LICENSE-Instrument-Serif.txt",
+      "destination": "public/fonts/LICENSE-Instrument-Serif.txt",
+      "sha256": "b6106a757902d2d412e09d94dc4a226fe3da80485208a98003969f1b8b6b1d74",
+      "byteIdentical": true
+    }
+  ]
+}

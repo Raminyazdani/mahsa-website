@@ -1,0 +1,460 @@
+{
+  "config": {
+    "lang": "en",
+    "ID": "mahsa_nejadhossein"
+  },
+  "basics": [
+    {
+      "fname": "Mahsa",
+      "lname": "Nejadhossein",
+      "label": [
+        "M.Sc. Student in Applied Biotechnology",
+        "DNA Synthesis",
+        "Molecular Biology"
+      ],
+      "email": "mahsa.nejad77@gmail.com",
+      "phone": {
+        "countryCode": "+49",
+        "number": "17664777330",
+        "formatted": "+49 176 64777330"
+      },
+      "birthDate": "",
+      "summary": "Applied Biotechnology master's student with experimental research experience in DNA synthesis, molecular biology and microbiology. Currently completing an external master's thesis at Leibniz-LSB@TUM in Freising, with experience in planning, conducting, evaluating and documenting laboratory experiments.",
+      "location": [
+        {
+          "address": null,
+          "postalCode": "",
+          "city": "Munich",
+          "region": "",
+          "country": "Germany"
+        }
+      ],
+      "Pictures": [
+        {
+          "type_of": "profile",
+          "URL": "/images/mahsa-profile.jpg"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "network": "GitHub",
+      "username": "Mahsanejad",
+      "url": "https://github.com/Mahsanejad",
+      "type_key": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ansbach University of Applied Sciences",
+      "location": "Germany",
+      "area": "Applied Biotechnology",
+      "studyType": "M.Sc. (ongoing)",
+      "startDate": "2024-03",
+      "endDate": "present",
+      "gpa": "2.2 (current average; German grading scale)",
+      "logo_url": "",
+      "type_key": [
+        "record:msc-applied-biotechnology"
+      ]
+    },
+    {
+      "institution": "Islamic Azad University, Karaj Branch",
+      "location": "Karaj, Iran",
+      "area": "Microbiology",
+      "studyType": "B.Sc.",
+      "startDate": "2019-09",
+      "endDate": "2023-02",
+      "gpa": "18.17 / 20",
+      "logo_url": "",
+      "type_key": [
+        "record:bsc-microbiology"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Persian",
+      "proficiency": {
+        "level": "Native",
+        "CEFR": null,
+        "status": "Native"
+      },
+      "certifications": [],
+      "type_key": [
+        "record:persian"
+      ]
+    },
+    {
+      "language": "English",
+      "proficiency": {
+        "level": "B2",
+        "CEFR": "B2",
+        "status": ""
+      },
+      "certifications": [],
+      "type_key": [
+        "record:english"
+      ]
+    },
+    {
+      "language": "German",
+      "proficiency": {
+        "level": "B1-B2",
+        "CEFR": "B1-B2",
+        "status": ""
+      },
+      "certifications": [],
+      "type_key": [
+        "record:german"
+      ]
+    }
+  ],
+  "workshop_and_certifications": [
+    {
+      "issuer": "",
+      "certifications": [
+        {
+          "name": "Good Laboratory Practice (GLP)",
+          "date": "",
+          "duration": "",
+          "certificate": false,
+          "URL": null,
+          "type_key": [
+            "record:training-glp"
+          ]
+        },
+        {
+          "name": "Medical diagnostic laboratory techniques",
+          "date": "",
+          "duration": "",
+          "certificate": false,
+          "URL": null,
+          "type_key": [
+            "record:training-clinical-laboratory"
+          ]
+        },
+        {
+          "name": "Applied bioinformatics",
+          "date": "",
+          "duration": "",
+          "certificate": false,
+          "URL": null,
+          "type_key": [
+            "record:training-applied-bioinformatics"
+          ]
+        },
+        {
+          "name": "Histological techniques",
+          "date": "",
+          "duration": "",
+          "certificate": false,
+          "URL": null,
+          "type_key": [
+            "record:training-histology"
+          ]
+        },
+        {
+          "name": "Basic molecular testing",
+          "date": "",
+          "duration": "",
+          "certificate": false,
+          "URL": null,
+          "type_key": [
+            "record:training-molecular-testing"
+          ]
+        },
+        {
+          "name": "Fundamentals of in-vitro cell culture",
+          "date": "",
+          "duration": "",
+          "certificate": false,
+          "URL": null,
+          "type_key": [
+            "record:training-cell-culture"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "Programming & Scripting": {
+      "Programming Languages": [
+        {
+          "long_name": "R (intermediate)",
+          "short_name": "R",
+          "type_key": []
+        },
+        {
+          "long_name": "Python (intermediate)",
+          "short_name": "Python",
+          "type_key": []
+        }
+      ],
+      "Machine Learning & Data Science": [],
+      "Scripting & Automation Tools": [],
+      "Scientific Python Libraries": []
+    },
+    "DevOps & Infrastructure": {
+      "Networking & Protocols": [],
+      "DevOps Tools & CI/CD Pipelines": [],
+      "Cloud Platforms & Authentication": [],
+      "Containerization & Orchestration": [],
+      "System Administration & Linux Tools": []
+    },
+    "Software & Web Development": {
+      "Frontend Frameworks & UI Technologies": [],
+      "Backend Development & APIs": []
+    },
+    "Databases & Data Engineering": {
+      "Database Modeling & Optimization": [],
+      "SQL Databases": [],
+      "NoSQL Databases": [],
+      "Data Pipelines & ETL Systems": []
+    },
+    "Data Visualization & Reporting": {
+      "Scientific Plotting Tools": [],
+      "Dashboarding & Reporting Platforms": [
+        {
+          "long_name": "MS Office",
+          "short_name": "MS Office",
+          "type_key": []
+        },
+        {
+          "long_name": "Adobe Photoshop",
+          "short_name": "Adobe Photoshop",
+          "type_key": []
+        },
+        {
+          "long_name": "Canva",
+          "short_name": "Canva",
+          "type_key": []
+        }
+      ],
+      "Visual Analytics & Network Tools": [],
+      "Spreadsheet Automation": []
+    },
+    "Bioinformatics Domains": {
+      "Statistical Modeling & Machine Learning in Bioinformatics": [],
+      "Genomics & Genome Assembly": [
+        {
+          "long_name": "FinchTV",
+          "short_name": "FinchTV",
+          "type_key": []
+        },
+        {
+          "long_name": "Sequence analysis",
+          "short_name": "Sequence analysis",
+          "type_key": []
+        },
+        {
+          "long_name": "NCBI",
+          "short_name": "NCBI",
+          "type_key": []
+        }
+      ],
+      "Transcriptomics & Single-Cell Analysis": [],
+      "Metagenomics & Microbial Ecology": [],
+      "Functional Annotation & Systems Biology": [],
+      "Protein Structure & Structural Bioinformatics": [
+        {
+          "long_name": "Protein bioinformatics",
+          "short_name": "Protein bioinformatics",
+          "type_key": []
+        }
+      ],
+      "Phylogeny & Comparative Genomics": []
+    },
+    "Laboratory Techniques": {
+      "Molecular & Microbial Biology Techniques": [
+        {
+          "long_name": "Photolithographic DNA synthesis",
+          "short_name": "Photolithographic DNA synthesis",
+          "type_key": []
+        },
+        {
+          "long_name": "DNA library preparation",
+          "short_name": "DNA library preparation",
+          "type_key": []
+        },
+        {
+          "long_name": "DNA hybridization",
+          "short_name": "DNA hybridization",
+          "type_key": []
+        },
+        {
+          "long_name": "PCR/qPCR",
+          "short_name": "PCR/qPCR",
+          "type_key": []
+        },
+        {
+          "long_name": "Gel electrophoresis",
+          "short_name": "Gel electrophoresis",
+          "type_key": []
+        },
+        {
+          "long_name": "Primer design",
+          "short_name": "Primer design",
+          "type_key": []
+        },
+        {
+          "long_name": "Bacterial cultivation on agar",
+          "short_name": "Bacterial cultivation on agar",
+          "type_key": []
+        },
+        {
+          "long_name": "Gram staining",
+          "short_name": "Gram staining",
+          "type_key": []
+        },
+        {
+          "long_name": "Bacterial identification",
+          "short_name": "Bacterial identification",
+          "type_key": []
+        },
+        {
+          "long_name": "Antibiotic susceptibility testing",
+          "short_name": "Antibiotic susceptibility testing",
+          "type_key": []
+        },
+        {
+          "long_name": "Heat-shock transformation of E. coli",
+          "short_name": "Heat-shock transformation of E. coli",
+          "type_key": []
+        },
+        {
+          "long_name": "SDS-PAGE",
+          "short_name": "SDS-PAGE",
+          "type_key": []
+        },
+        {
+          "long_name": "Macroscopic and microscopic urinalysis",
+          "short_name": "Macroscopic and microscopic urinalysis",
+          "type_key": []
+        },
+        {
+          "long_name": "Complete blood count (CBC) testing",
+          "short_name": "Complete blood count (CBC) testing",
+          "type_key": []
+        }
+      ],
+      "In Vivo & Ex Vivo Experimental Protocols": [],
+      "Experimental Design & Laboratory Documentation": [
+        {
+          "long_name": "Planning laboratory experiments",
+          "short_name": "Planning laboratory experiments",
+          "type_key": []
+        },
+        {
+          "long_name": "Conducting laboratory experiments",
+          "short_name": "Conducting laboratory experiments",
+          "type_key": []
+        },
+        {
+          "long_name": "Evaluating laboratory experiments",
+          "short_name": "Evaluating laboratory experiments",
+          "type_key": []
+        },
+        {
+          "long_name": "Documenting laboratory experiments",
+          "short_name": "Documenting laboratory experiments",
+          "type_key": []
+        }
+      ],
+      "Analytical Instruments & Chromatography": [
+        {
+          "long_name": "Pipetting",
+          "short_name": "Pipetting",
+          "type_key": []
+        },
+        {
+          "long_name": "Automated liquid handling systems",
+          "short_name": "Automated liquid handling systems",
+          "type_key": []
+        },
+        {
+          "long_name": "Spectrophotometers",
+          "short_name": "Spectrophotometers",
+          "type_key": []
+        },
+        {
+          "long_name": "Incubators",
+          "short_name": "Incubators",
+          "type_key": []
+        },
+        {
+          "long_name": "Biochemical analyzers",
+          "short_name": "Biochemical analyzers",
+          "type_key": []
+        },
+        {
+          "long_name": "Calibration tools",
+          "short_name": "Calibration tools",
+          "type_key": []
+        }
+      ],
+      "Bioprocess & Bioreactor Engineering": [],
+      "Lab Safety, Compliance & Regulatory Practices": []
+    },
+    "Soft Skills": {
+      "Core Soft Skills": []
+    }
+  },
+  "experiences": [
+    {
+      "role": "Medical Diagnostic Laboratory Intern",
+      "institution": "Shafa Medical Diagnostic Laboratory, Iran",
+      "duration": "2022-07 - 2023",
+      "description": "One-year internship in microbiology and routine clinical laboratory diagnostics.",
+      "type_key": [
+        "record:shafa-laboratory-internship"
+      ],
+      "startDate": "2022-07",
+      "endDate": "2023"
+    },
+    {
+      "role": "Sales Assistant (part-time)",
+      "institution": "Yorma's AG, Germany",
+      "duration": "2025-03 - 2025-11",
+      "description": "",
+      "type_key": [
+        "record:yormas-sales-assistant"
+      ],
+      "startDate": "2025-03",
+      "endDate": "2025-11"
+    },
+    {
+      "role": "Assistant",
+      "institution": "Dr. Nejadhossein's Radiology and Sonography Practice, Iran",
+      "duration": "2017-12 - 2024-03",
+      "description": "",
+      "type_key": [
+        "record:radiology-practice-assistant"
+      ],
+      "startDate": "2017-12",
+      "endDate": "2024-03"
+    }
+  ],
+  "projects": [
+    {
+      "title": "External Master’s Thesis — Photolithographic DNA Synthesis",
+      "description": "External master's thesis at the Leibniz Institute for Food Systems Biology at TUM (Leibniz-LSB@TUM), Freising. May 2026 - January 2027 (expected). Experimental research on optimizing photolithographic DNA synthesis for high-throughput applications, including photolabile nucleotide deprotection and its effect on the error rate of synthesized sequences.\n\nThesis title as listed in the English CV: \"The effect of cleavable photolabile nucleotide deprotection on the error rate of the synthesized sequences.\"",
+      "url": null,
+      "type_key": [
+        "record:photolithographic-dna-synthesis"
+      ]
+    },
+    {
+      "title": "Recombinant Taq Polymerase Project",
+      "description": "M.Sc. coursework: recombinant Taq polymerase production in E. coli.",
+      "url": null,
+      "type_key": [
+        "record:taq-polymerase"
+      ]
+    }
+  ],
+  "publications": [],
+  "references": [],
+  "interests": []
+}

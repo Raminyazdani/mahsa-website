@@ -1,0 +1,2103 @@
+{
+  "description": "Derived evidence from the validated JSON and the complete CV HTML; not a hand-written content file.",
+  "generatedAt": "2026-11-14T22:20:26.586Z",
+  "audits": [
+    {
+      "locale": "en",
+      "factCount": 131,
+      "rows": [
+        {
+          "sourcePath": "/basics/0/fname",
+          "modelPaths": [
+            "/person/firstName",
+            "/person/name",
+            "/profiles/0/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/lname",
+          "modelPaths": [
+            "/person/lastName",
+            "/person/name",
+            "/experience/2/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/label/0",
+          "modelPaths": [
+            "/person/headlines/0"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/label/1",
+          "modelPaths": [
+            "/person/headlines/1",
+            "/projects/0/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/label/2",
+          "modelPaths": [
+            "/person/headlines/2"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/email",
+          "modelPaths": [
+            "/person/contacts/0/label",
+            "/person/contacts/0/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/phone/countryCode",
+          "modelPaths": [
+            "/person/contacts/1/label",
+            "/person/contacts/1/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/phone/number",
+          "modelPaths": [
+            "/person/contacts/1/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/phone/formatted",
+          "modelPaths": [
+            "/person/contacts/1/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/summary",
+          "modelPaths": [
+            "/person/summary"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/location/0/city",
+          "modelPaths": [
+            "/person/locations/0/city"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/location/0/country",
+          "modelPaths": [
+            "/person/locations/0/country",
+            "/education/0/location",
+            "/experience/1/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/Pictures/0/URL",
+          "modelPaths": [
+            "/person/images/0/src"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/profiles/0/network",
+          "modelPaths": [
+            "/profiles/0/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/profiles/0/username",
+          "modelPaths": [
+            "/profiles/0/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/profiles/0/url",
+          "modelPaths": [
+            "/profiles/0/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/institution",
+          "modelPaths": [
+            "/education/0/institution"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/location",
+          "modelPaths": [
+            "/person/locations/0/country",
+            "/education/0/location",
+            "/experience/1/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/area",
+          "modelPaths": [
+            "/person/headlines/0",
+            "/person/summary",
+            "/education/0/subject"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/studyType",
+          "modelPaths": [
+            "/education/0/qualification"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/startDate",
+          "modelPaths": [
+            "/education/0/period/start",
+            "/education/0/period/label",
+            "/experience/2/period/end",
+            "/experience/2/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/endDate",
+          "modelPaths": [
+            "/education/0/period/end",
+            "/education/0/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/gpa",
+          "modelPaths": [
+            "/education/0/grade"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/institution",
+          "modelPaths": [
+            "/education/1/institution"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/location",
+          "modelPaths": [
+            "/education/1/location"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/area",
+          "modelPaths": [
+            "/education/1/subject"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/studyType",
+          "modelPaths": [
+            "/education/1/qualification"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/startDate",
+          "modelPaths": [
+            "/education/1/period/start",
+            "/education/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/endDate",
+          "modelPaths": [
+            "/education/1/period/end",
+            "/education/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/gpa",
+          "modelPaths": [
+            "/education/1/grade"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/0/language",
+          "modelPaths": [
+            "/languages/0/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/0/proficiency/level",
+          "modelPaths": [
+            "/languages/0/level",
+            "/languages/0/status"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/0/proficiency/status",
+          "modelPaths": [
+            "/languages/0/level",
+            "/languages/0/status"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/1/language",
+          "modelPaths": [
+            "/projects/0/description",
+            "/languages/1/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/1/proficiency/level",
+          "modelPaths": [
+            "/languages/1/level",
+            "/languages/1/frameworkLevel",
+            "/languages/2/level",
+            "/languages/2/frameworkLevel"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/1/proficiency/CEFR",
+          "modelPaths": [
+            "/languages/1/level",
+            "/languages/1/frameworkLevel",
+            "/languages/2/level",
+            "/languages/2/frameworkLevel"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/2/language",
+          "modelPaths": [
+            "/person/locations/0/country",
+            "/education/0/location",
+            "/education/0/grade",
+            "/experience/1/organization",
+            "/languages/2/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/2/proficiency/level",
+          "modelPaths": [
+            "/languages/2/level",
+            "/languages/2/frameworkLevel"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/2/proficiency/CEFR",
+          "modelPaths": [
+            "/languages/2/level",
+            "/languages/2/frameworkLevel"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/0/name",
+          "modelPaths": [
+            "/training/0/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/1/name",
+          "modelPaths": [
+            "/training/1/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/2/name",
+          "modelPaths": [
+            "/training/2/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/3/name",
+          "modelPaths": [
+            "/training/3/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/4/name",
+          "modelPaths": [
+            "/training/4/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/5/name",
+          "modelPaths": [
+            "/training/5/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Programming & Scripting/Programming Languages/0/long_name",
+          "modelPaths": [
+            "/skills/0/groups/0/items/0/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Programming & Scripting/Programming Languages/0/short_name",
+          "modelPaths": [
+            "/experience/2/organization",
+            "/projects/1/title",
+            "/skills/0/groups/0/items/0/name",
+            "/skills/0/groups/0/items/0/shortName",
+            "/skills/1/key",
+            "/skills/1/groups/0/key",
+            "/skills/3/groups/0/items/3/name",
+            "/skills/3/groups/0/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Programming & Scripting/Programming Languages/1/long_name",
+          "modelPaths": [
+            "/skills/0/groups/0/items/1/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Programming & Scripting/Programming Languages/1/short_name",
+          "modelPaths": [
+            "/skills/0/groups/0/items/1/name",
+            "/skills/0/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/0/long_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/0/name",
+            "/skills/1/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/0/short_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/0/name",
+            "/skills/1/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/1/long_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/1/name",
+            "/skills/1/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/1/short_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/1/name",
+            "/skills/1/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/2/long_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/2/name",
+            "/skills/1/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/2/short_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/2/name",
+            "/skills/1/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/0/long_name",
+          "modelPaths": [
+            "/skills/2/groups/0/items/0/name",
+            "/skills/2/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/0/short_name",
+          "modelPaths": [
+            "/skills/2/groups/0/items/0/name",
+            "/skills/2/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/1/long_name",
+          "modelPaths": [
+            "/skills/2/groups/0/title",
+            "/skills/2/groups/0/items/1/name",
+            "/skills/2/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/1/short_name",
+          "modelPaths": [
+            "/skills/2/groups/0/title",
+            "/skills/2/groups/0/items/1/name",
+            "/skills/2/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/2/long_name",
+          "modelPaths": [
+            "/skills/2/groups/0/items/2/name",
+            "/skills/2/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/2/short_name",
+          "modelPaths": [
+            "/skills/2/groups/0/items/2/name",
+            "/skills/2/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Protein Structure & Structural Bioinformatics/0/long_name",
+          "modelPaths": [
+            "/skills/2/groups/1/title",
+            "/skills/2/groups/1/items/0/name",
+            "/skills/2/groups/1/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Protein Structure & Structural Bioinformatics/0/short_name",
+          "modelPaths": [
+            "/skills/2/groups/1/title",
+            "/skills/2/groups/1/items/0/name",
+            "/skills/2/groups/1/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/0/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/0/name",
+            "/skills/3/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/0/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/0/name",
+            "/skills/3/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/1/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/1/name",
+            "/skills/3/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/1/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/1/name",
+            "/skills/3/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/2/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/2/name",
+            "/skills/3/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/2/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/2/name",
+            "/skills/3/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/3/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/3/name",
+            "/skills/3/groups/0/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/3/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/3/name",
+            "/skills/3/groups/0/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/4/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/4/name",
+            "/skills/3/groups/0/items/4/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/4/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/4/name",
+            "/skills/3/groups/0/items/4/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/5/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/5/name",
+            "/skills/3/groups/0/items/5/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/5/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/5/name",
+            "/skills/3/groups/0/items/5/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/6/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/6/name",
+            "/skills/3/groups/0/items/6/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/6/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/6/name",
+            "/skills/3/groups/0/items/6/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/7/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/7/name",
+            "/skills/3/groups/0/items/7/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/7/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/7/name",
+            "/skills/3/groups/0/items/7/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/8/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/8/name",
+            "/skills/3/groups/0/items/8/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/8/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/8/name",
+            "/skills/3/groups/0/items/8/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/9/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/9/name",
+            "/skills/3/groups/0/items/9/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/9/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/9/name",
+            "/skills/3/groups/0/items/9/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/10/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/10/name",
+            "/skills/3/groups/0/items/10/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/10/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/10/name",
+            "/skills/3/groups/0/items/10/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/11/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/11/name",
+            "/skills/3/groups/0/items/11/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/11/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/11/name",
+            "/skills/3/groups/0/items/11/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/12/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/12/name",
+            "/skills/3/groups/0/items/12/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/12/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/12/name",
+            "/skills/3/groups/0/items/12/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/13/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/13/name",
+            "/skills/3/groups/0/items/13/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/13/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/13/name",
+            "/skills/3/groups/0/items/13/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/0/long_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/0/name",
+            "/skills/3/groups/1/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/0/short_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/0/name",
+            "/skills/3/groups/1/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/1/long_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/1/name",
+            "/skills/3/groups/1/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/1/short_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/1/name",
+            "/skills/3/groups/1/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/2/long_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/2/name",
+            "/skills/3/groups/1/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/2/short_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/2/name",
+            "/skills/3/groups/1/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/3/long_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/3/name",
+            "/skills/3/groups/1/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/3/short_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/3/name",
+            "/skills/3/groups/1/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/0/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/0/name",
+            "/skills/3/groups/2/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/0/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/0/name",
+            "/skills/3/groups/2/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/1/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/1/name",
+            "/skills/3/groups/2/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/1/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/1/name",
+            "/skills/3/groups/2/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/2/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/2/name",
+            "/skills/3/groups/2/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/2/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/2/name",
+            "/skills/3/groups/2/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/3/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/3/name",
+            "/skills/3/groups/2/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/3/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/3/name",
+            "/skills/3/groups/2/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/4/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/4/name",
+            "/skills/3/groups/2/items/4/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/4/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/4/name",
+            "/skills/3/groups/2/items/4/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/5/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/5/name",
+            "/skills/3/groups/2/items/5/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/5/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/5/name",
+            "/skills/3/groups/2/items/5/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/role",
+          "modelPaths": [
+            "/experience/0/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/institution",
+          "modelPaths": [
+            "/experience/0/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/duration",
+          "modelPaths": [
+            "/experience/0/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/description",
+          "modelPaths": [
+            "/experience/0/description"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/startDate",
+          "modelPaths": [
+            "/experience/0/period/start",
+            "/experience/0/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/endDate",
+          "modelPaths": [
+            "/education/1/period/end",
+            "/education/1/period/label",
+            "/experience/0/period/end",
+            "/experience/0/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/role",
+          "modelPaths": [
+            "/experience/1/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/institution",
+          "modelPaths": [
+            "/experience/1/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/duration",
+          "modelPaths": [
+            "/experience/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/startDate",
+          "modelPaths": [
+            "/experience/1/period/start",
+            "/experience/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/endDate",
+          "modelPaths": [
+            "/experience/1/period/end",
+            "/experience/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/role",
+          "modelPaths": [
+            "/experience/1/title",
+            "/experience/2/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/institution",
+          "modelPaths": [
+            "/experience/2/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/duration",
+          "modelPaths": [
+            "/experience/2/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/startDate",
+          "modelPaths": [
+            "/experience/2/period/start",
+            "/experience/2/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/endDate",
+          "modelPaths": [
+            "/education/0/period/start",
+            "/education/0/period/label",
+            "/experience/2/period/end",
+            "/experience/2/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/projects/0/title",
+          "modelPaths": [
+            "/projects/0/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/projects/0/description",
+          "modelPaths": [
+            "/projects/0/description"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/projects/1/title",
+          "modelPaths": [
+            "/projects/1/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/projects/1/description",
+          "modelPaths": [
+            "/projects/1/description"
+          ],
+          "fullCv": true
+        }
+      ],
+      "missing": []
+    },
+    {
+      "locale": "de",
+      "factCount": 131,
+      "rows": [
+        {
+          "sourcePath": "/basics/0/fname",
+          "modelPaths": [
+            "/person/firstName",
+            "/person/name",
+            "/profiles/0/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/lname",
+          "modelPaths": [
+            "/person/lastName",
+            "/person/name",
+            "/experience/2/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/label/0",
+          "modelPaths": [
+            "/person/headlines/0"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/label/1",
+          "modelPaths": [
+            "/person/headlines/1",
+            "/person/summary",
+            "/projects/0/title",
+            "/projects/0/description",
+            "/skills/3/groups/0/items/0/name",
+            "/skills/3/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/label/2",
+          "modelPaths": [
+            "/person/headlines/2",
+            "/person/summary",
+            "/skills/3/groups/0/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/email",
+          "modelPaths": [
+            "/person/contacts/0/label",
+            "/person/contacts/0/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/phone/countryCode",
+          "modelPaths": [
+            "/person/contacts/1/label",
+            "/person/contacts/1/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/phone/number",
+          "modelPaths": [
+            "/person/contacts/1/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/phone/formatted",
+          "modelPaths": [
+            "/person/contacts/1/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/summary",
+          "modelPaths": [
+            "/person/summary"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/location/0/city",
+          "modelPaths": [
+            "/person/locations/0/city"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/location/0/country",
+          "modelPaths": [
+            "/person/locations/0/country",
+            "/education/0/location",
+            "/experience/1/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/basics/0/Pictures/0/URL",
+          "modelPaths": [
+            "/person/images/0/src"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/profiles/0/network",
+          "modelPaths": [
+            "/profiles/0/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/profiles/0/username",
+          "modelPaths": [
+            "/profiles/0/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/profiles/0/url",
+          "modelPaths": [
+            "/profiles/0/href"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/institution",
+          "modelPaths": [
+            "/education/0/institution"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/location",
+          "modelPaths": [
+            "/person/locations/0/country",
+            "/education/0/location",
+            "/experience/1/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/area",
+          "modelPaths": [
+            "/education/0/subject"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/studyType",
+          "modelPaths": [
+            "/education/0/qualification"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/startDate",
+          "modelPaths": [
+            "/education/0/period/start",
+            "/education/0/period/label",
+            "/experience/2/period/end",
+            "/experience/2/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/0/endDate",
+          "modelPaths": [
+            "/education/0/period/end"
+          ],
+          "fullCv": true,
+          "note": "Localized ongoing date: present → heute"
+        },
+        {
+          "sourcePath": "/education/0/gpa",
+          "modelPaths": [
+            "/education/0/grade"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/institution",
+          "modelPaths": [
+            "/education/1/institution"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/location",
+          "modelPaths": [
+            "/education/1/location"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/area",
+          "modelPaths": [
+            "/person/summary",
+            "/education/1/subject",
+            "/experience/0/description",
+            "/skills/3/groups/0/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/studyType",
+          "modelPaths": [
+            "/education/1/qualification"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/startDate",
+          "modelPaths": [
+            "/education/1/period/start",
+            "/education/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/endDate",
+          "modelPaths": [
+            "/education/1/period/end",
+            "/education/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/education/1/gpa",
+          "modelPaths": [
+            "/education/1/grade"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/0/language",
+          "modelPaths": [
+            "/languages/0/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/0/proficiency/level",
+          "modelPaths": [
+            "/languages/0/level",
+            "/languages/0/status"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/0/proficiency/status",
+          "modelPaths": [
+            "/languages/0/level",
+            "/languages/0/status"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/1/language",
+          "modelPaths": [
+            "/languages/1/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/1/proficiency/level",
+          "modelPaths": [
+            "/languages/1/level",
+            "/languages/1/frameworkLevel",
+            "/languages/2/level",
+            "/languages/2/frameworkLevel"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/1/proficiency/CEFR",
+          "modelPaths": [
+            "/languages/1/level",
+            "/languages/1/frameworkLevel",
+            "/languages/2/level",
+            "/languages/2/frameworkLevel"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/2/language",
+          "modelPaths": [
+            "/person/locations/0/country",
+            "/education/0/location",
+            "/experience/1/organization",
+            "/projects/0/description",
+            "/languages/2/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/2/proficiency/level",
+          "modelPaths": [
+            "/languages/2/level",
+            "/languages/2/frameworkLevel"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/languages/2/proficiency/CEFR",
+          "modelPaths": [
+            "/languages/2/level",
+            "/languages/2/frameworkLevel"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/0/name",
+          "modelPaths": [
+            "/training/0/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/1/name",
+          "modelPaths": [
+            "/training/1/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/2/name",
+          "modelPaths": [
+            "/training/2/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/3/name",
+          "modelPaths": [
+            "/training/3/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/4/name",
+          "modelPaths": [
+            "/training/4/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/workshop_and_certifications/0/certifications/5/name",
+          "modelPaths": [
+            "/training/5/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Programming & Scripting/Programming Languages/0/long_name",
+          "modelPaths": [
+            "/skills/0/groups/0/items/0/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Programming & Scripting/Programming Languages/0/short_name",
+          "modelPaths": [
+            "/experience/0/description",
+            "/experience/2/organization",
+            "/projects/1/title",
+            "/projects/1/description",
+            "/skills/0/groups/0/items/0/name",
+            "/skills/0/groups/0/items/0/shortName",
+            "/skills/1/key",
+            "/skills/1/groups/0/key",
+            "/skills/3/groups/0/items/3/name",
+            "/skills/3/groups/0/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Programming & Scripting/Programming Languages/1/long_name",
+          "modelPaths": [
+            "/skills/0/groups/0/items/1/name"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Programming & Scripting/Programming Languages/1/short_name",
+          "modelPaths": [
+            "/skills/0/groups/0/items/1/name",
+            "/skills/0/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/0/long_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/0/name",
+            "/skills/1/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/0/short_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/0/name",
+            "/skills/1/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/1/long_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/1/name",
+            "/skills/1/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/1/short_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/1/name",
+            "/skills/1/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/2/long_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/2/name",
+            "/skills/1/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Data Visualization & Reporting/Dashboarding & Reporting Platforms/2/short_name",
+          "modelPaths": [
+            "/skills/1/groups/0/items/2/name",
+            "/skills/1/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/0/long_name",
+          "modelPaths": [
+            "/skills/2/groups/0/items/0/name",
+            "/skills/2/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/0/short_name",
+          "modelPaths": [
+            "/skills/2/groups/0/items/0/name",
+            "/skills/2/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/1/long_name",
+          "modelPaths": [
+            "/skills/2/groups/0/title",
+            "/skills/2/groups/0/items/1/name",
+            "/skills/2/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/1/short_name",
+          "modelPaths": [
+            "/skills/2/groups/0/title",
+            "/skills/2/groups/0/items/1/name",
+            "/skills/2/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/2/long_name",
+          "modelPaths": [
+            "/skills/2/groups/0/items/2/name",
+            "/skills/2/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Genomics & Genome Assembly/2/short_name",
+          "modelPaths": [
+            "/skills/2/groups/0/items/2/name",
+            "/skills/2/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Protein Structure & Structural Bioinformatics/0/long_name",
+          "modelPaths": [
+            "/skills/2/groups/1/title",
+            "/skills/2/groups/1/items/0/name",
+            "/skills/2/groups/1/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Bioinformatics Domains/Protein Structure & Structural Bioinformatics/0/short_name",
+          "modelPaths": [
+            "/skills/2/groups/1/title",
+            "/skills/2/groups/1/items/0/name",
+            "/skills/2/groups/1/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/0/long_name",
+          "modelPaths": [
+            "/projects/0/title",
+            "/skills/3/groups/0/items/0/name",
+            "/skills/3/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/0/short_name",
+          "modelPaths": [
+            "/projects/0/title",
+            "/skills/3/groups/0/items/0/name",
+            "/skills/3/groups/0/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/1/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/1/name",
+            "/skills/3/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/1/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/1/name",
+            "/skills/3/groups/0/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/2/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/2/name",
+            "/skills/3/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/2/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/2/name",
+            "/skills/3/groups/0/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/3/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/3/name",
+            "/skills/3/groups/0/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/3/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/3/name",
+            "/skills/3/groups/0/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/4/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/4/name",
+            "/skills/3/groups/0/items/4/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/4/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/4/name",
+            "/skills/3/groups/0/items/4/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/5/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/5/name",
+            "/skills/3/groups/0/items/5/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/5/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/5/name",
+            "/skills/3/groups/0/items/5/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/6/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/6/name",
+            "/skills/3/groups/0/items/6/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/6/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/6/name",
+            "/skills/3/groups/0/items/6/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/7/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/7/name",
+            "/skills/3/groups/0/items/7/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/7/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/7/name",
+            "/skills/3/groups/0/items/7/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/8/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/8/name",
+            "/skills/3/groups/0/items/8/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/8/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/8/name",
+            "/skills/3/groups/0/items/8/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/9/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/9/name",
+            "/skills/3/groups/0/items/9/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/9/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/9/name",
+            "/skills/3/groups/0/items/9/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/10/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/10/name",
+            "/skills/3/groups/0/items/10/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/10/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/10/name",
+            "/skills/3/groups/0/items/10/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/11/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/11/name",
+            "/skills/3/groups/0/items/11/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/11/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/11/name",
+            "/skills/3/groups/0/items/11/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/12/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/12/name",
+            "/skills/3/groups/0/items/12/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/12/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/12/name",
+            "/skills/3/groups/0/items/12/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/13/long_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/13/name",
+            "/skills/3/groups/0/items/13/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Molecular & Microbial Biology Techniques/13/short_name",
+          "modelPaths": [
+            "/skills/3/groups/0/items/13/name",
+            "/skills/3/groups/0/items/13/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/0/long_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/0/name",
+            "/skills/3/groups/1/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/0/short_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/0/name",
+            "/skills/3/groups/1/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/1/long_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/1/name",
+            "/skills/3/groups/1/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/1/short_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/1/name",
+            "/skills/3/groups/1/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/2/long_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/2/name",
+            "/skills/3/groups/1/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/2/short_name",
+          "modelPaths": [
+            "/skills/3/groups/1/items/2/name",
+            "/skills/3/groups/1/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/3/long_name",
+          "modelPaths": [
+            "/person/summary",
+            "/skills/3/groups/1/items/3/name",
+            "/skills/3/groups/1/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Experimental Design & Laboratory Documentation/3/short_name",
+          "modelPaths": [
+            "/person/summary",
+            "/skills/3/groups/1/items/3/name",
+            "/skills/3/groups/1/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/0/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/0/name",
+            "/skills/3/groups/2/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/0/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/0/name",
+            "/skills/3/groups/2/items/0/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/1/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/1/name",
+            "/skills/3/groups/2/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/1/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/1/name",
+            "/skills/3/groups/2/items/1/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/2/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/2/name",
+            "/skills/3/groups/2/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/2/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/2/name",
+            "/skills/3/groups/2/items/2/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/3/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/3/name",
+            "/skills/3/groups/2/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/3/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/3/name",
+            "/skills/3/groups/2/items/3/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/4/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/4/name",
+            "/skills/3/groups/2/items/4/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/4/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/4/name",
+            "/skills/3/groups/2/items/4/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/5/long_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/5/name",
+            "/skills/3/groups/2/items/5/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/skills/Laboratory Techniques/Analytical Instruments & Chromatography/5/short_name",
+          "modelPaths": [
+            "/skills/3/groups/2/items/5/name",
+            "/skills/3/groups/2/items/5/shortName"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/role",
+          "modelPaths": [
+            "/experience/0/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/institution",
+          "modelPaths": [
+            "/experience/0/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/duration",
+          "modelPaths": [
+            "/experience/0/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/description",
+          "modelPaths": [
+            "/experience/0/description"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/startDate",
+          "modelPaths": [
+            "/experience/0/period/start",
+            "/experience/0/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/0/endDate",
+          "modelPaths": [
+            "/education/1/period/end",
+            "/education/1/period/label",
+            "/experience/0/period/end",
+            "/experience/0/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/role",
+          "modelPaths": [
+            "/experience/1/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/institution",
+          "modelPaths": [
+            "/experience/1/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/duration",
+          "modelPaths": [
+            "/experience/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/startDate",
+          "modelPaths": [
+            "/experience/1/period/start",
+            "/experience/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/1/endDate",
+          "modelPaths": [
+            "/experience/1/period/end",
+            "/experience/1/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/role",
+          "modelPaths": [
+            "/experience/2/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/institution",
+          "modelPaths": [
+            "/experience/2/organization"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/duration",
+          "modelPaths": [
+            "/experience/2/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/startDate",
+          "modelPaths": [
+            "/experience/2/period/start",
+            "/experience/2/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/experiences/2/endDate",
+          "modelPaths": [
+            "/education/0/period/start",
+            "/education/0/period/label",
+            "/experience/2/period/end",
+            "/experience/2/period/label"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/projects/0/title",
+          "modelPaths": [
+            "/projects/0/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/projects/0/description",
+          "modelPaths": [
+            "/projects/0/description"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/projects/1/title",
+          "modelPaths": [
+            "/projects/1/title"
+          ],
+          "fullCv": true
+        },
+        {
+          "sourcePath": "/projects/1/description",
+          "modelPaths": [
+            "/projects/1/description"
+          ],
+          "fullCv": true
+        }
+      ],
+      "missing": []
+    }
+  ]
+}

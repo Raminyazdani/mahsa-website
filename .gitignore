@@ -1,0 +1,38 @@
+# Local dependencies and generated output are rebuilt from the lockfile.
+/node_modules/
+/dist/
+/output/
+/src/content/generated.ts
+
+# Keep the old design locally; retain its source-preservation receipt in Git.
+/_archive/*
+!/_archive/design-v1-2026-11-14/
+/_archive/design-v1-2026-11-14/*
+!/_archive/design-v1-2026-11-14/docs/
+/_archive/design-v1-2026-11-14/docs/*
+!/_archive/design-v1-2026-11-14/docs/source-preservation.json
+
+# Local handoff bundles and screenshots are not website sources.
+/_handoff/
+/private-handoff/
+/private_handoff/
+/screenshots/
+/docs/evidence/screens/
+
+# Authentication and project linking stay local.
+/.vercel/
+/.auth/
+/auth/
+/credentials/
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+*.log
+.DS_Store
+Thumbs.db

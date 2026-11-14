@@ -1,0 +1,54 @@
+{
+  "description": "Self-hosted webfonts used by the site and the printable CV. Files are byte-identical copies of the Fontsource latin subsets; nothing was re-encoded or subset again.",
+  "refresh": "npm pack <package>@<version>, extract, copy <sourceFile> to public/fonts/<output> and LICENSE to <licenseFile>; then run cv:pdf → cv:verify → cv:stamp because fonts are part of the CV fingerprint.",
+  "fonts": [
+    {
+      "family": "Bricolage Grotesque",
+      "package": "@fontsource-variable/bricolage-grotesque",
+      "version": "5.3.0",
+      "tarballIntegrity": "sha512-TLi9Q4hJjS2UvoTMRSS2nHu6c4R56lAw60NR9QYtVRCHn0XtsFpiEhNffZ8Glsoxu6wEEwLKBP8lb94J52PNBA==",
+      "sourceFile": "package/files/bricolage-grotesque-latin-opsz-normal.woff2",
+      "output": "bricolage-grotesque-latin-opsz.woff2",
+      "bytes": 76888,
+      "sha256": "a79fdb52d4a5c76552452f69202add96e287401fff03d3e8c0e38b4dcb5a99cd",
+      "axes": "opsz 12–96 + wght 200–800 (Fontsource \"opsz\" build)",
+      "unicodeSubset": "latin (Fontsource)",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "LICENSE-Bricolage-Grotesque.txt",
+      "licenseSha256": "923f4ddf0fd39f9b7794ab0df7332f3d95dc43e8ad7ec2289d6d9e8491177f51",
+      "modified": false
+    },
+    {
+      "family": "Inter",
+      "package": "@fontsource-variable/inter",
+      "version": "5.3.0",
+      "tarballIntegrity": "sha512-OupL48va4JNofb97w6NYeF9S7W/kHNKM0Er8Dem5nqi4jeOLrVJDoE8tZEpnMJmtkvNbB1EIPPwHcdkF6b1oUA==",
+      "sourceFile": "package/files/inter-latin-wght-normal.woff2",
+      "output": "inter-latin-wght.woff2",
+      "bytes": 48256,
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "axes": "wght 100–900",
+      "unicodeSubset": "latin (Fontsource)",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "LICENSE-Inter.txt",
+      "licenseSha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "modified": false
+    },
+    {
+      "family": "Martian Mono",
+      "package": "@fontsource-variable/martian-mono",
+      "version": "5.3.0",
+      "tarballIntegrity": "sha512-0wVODx9ILwNnaYC4XCuSaFRYtj1Prd89MRVaSuv2ng6zLiQkS4SepaWEPefs7vqCZS8sbEOA8jb/4F5KNMnGdg==",
+      "sourceFile": "package/files/martian-mono-latin-wdth-normal.woff2",
+      "output": "martian-mono-latin-wdth.woff2",
+      "bytes": 38492,
+      "sha256": "f9c1655c2c9d1ed5bb8b301a57d1169a1123ffef1a588dc50a7a487810f7d732",
+      "axes": "wght 100–800 + wdth 75–112.5 (Fontsource \"wdth\" build)",
+      "unicodeSubset": "latin (Fontsource)",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "LICENSE-Martian-Mono.txt",
+      "licenseSha256": "bd7d799f6a67b704f9546422ee83d69b4dc5e4ae289d5eabc22581251dd7150a",
+      "modified": false
+    }
+  ]
+}

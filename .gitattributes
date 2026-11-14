@@ -1,0 +1,23 @@
+# Consistent new text files across Windows and Linux.
+* text=auto eol=lf
+
+# Existing raw-byte fingerprints must survive commit and checkout unchanged.
+/content/mahsa-cv.en.json -text
+/content/mahsa-cv.de.json -text
+/src/cv.ts -text
+/src/cv.css -text
+/public/fonts/LICENSE-*.txt -text
+
+# Public assets are copied without line-ending conversion.
+*.pdf binary
+*.woff2 binary
+*.woff binary
+*.ttf binary
+*.otf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.zip binary

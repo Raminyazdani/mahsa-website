@@ -1,0 +1,96 @@
+{
+  "checks": [
+    {
+      "pdf": "/home/claude/mahsa/output/pdf/Mahsa-Nejadhossein-CV-en.pdf",
+      "locale": "en",
+      "sha256": "9150105954682d90ae047042d574caffa20b7cef6169e2891f38f015763b3658",
+      "modelSha256": "5f10289c34bb41c2637a436a081a0f2e06d6cec06fe3bc941675fa3e668cfe0f",
+      "fingerprint": {
+        "sha256": "7dcf04609f1ca66ac9cbe94483cd84f5c0e3de30d5437bce2b95c3ee812c0943",
+        "modelSha256": "5f10289c34bb41c2637a436a081a0f2e06d6cec06fe3bc941675fa3e668cfe0f",
+        "sourceSha256": "027149f4a9ee4641a541592ded9f48a6d2b78d29a7a5608e5b8a460a0babface",
+        "templateSha256": "f798bdc9b6a566ad7fb495c5cf1d29669ccdfb081702d00cfd5fda5dc3fa56b7",
+        "assetsSha256": "adf7bb71c57bbd8ef4fd2e7fadc966b9185da8568fc9926b20dda489baa2409d"
+      },
+      "pages": 2,
+      "pageSizesPt": [
+        [
+          594.95996,
+          841.91998
+        ],
+        [
+          594.95996,
+          841.91998
+        ]
+      ],
+      "verifiedTextFacts": 107,
+      "verifiedLinkTargets": 3,
+      "imageObjects": 1,
+      "sourceImageChecks": [
+        {
+          "path": "/person/images/0/src",
+          "size": [
+            266,
+            266
+          ],
+          "bestChannelRmsDifference": 0.27080719493912786,
+          "matchesSourcePortrait": true
+        }
+      ],
+      "charactersWithinPage": 2810,
+      "charactersPerPage": [
+        1778,
+        1032
+      ],
+      "maximumTextRelativeLuminance": 0.11542612682172972,
+      "result": "pass",
+      "limits": "Geometry/text/annotation checks supplement visual inspection; no browser print-dialog test claimed."
+    },
+    {
+      "pdf": "/home/claude/mahsa/output/pdf/Mahsa-Nejadhossein-CV-de.pdf",
+      "locale": "de",
+      "sha256": "8b071ff4a1aa8a00732004e8e49fae2082b4864cb28ec40f683169a70c65935a",
+      "modelSha256": "117baa76d1ceed0fb419bab9b11431fd0172bee50398d634474ced2a19339ebc",
+      "fingerprint": {
+        "sha256": "1e75b66d20728ea98c8caa95b3a5722065a88f5ba1fc6950e07a098d0b730231",
+        "modelSha256": "117baa76d1ceed0fb419bab9b11431fd0172bee50398d634474ced2a19339ebc",
+        "sourceSha256": "2b2d8fd4dd5a4ee44eb25ce51f4112697bebbc528bf98b91aeca4eccdc0c041a",
+        "templateSha256": "f798bdc9b6a566ad7fb495c5cf1d29669ccdfb081702d00cfd5fda5dc3fa56b7",
+        "assetsSha256": "adf7bb71c57bbd8ef4fd2e7fadc966b9185da8568fc9926b20dda489baa2409d"
+      },
+      "pages": 2,
+      "pageSizesPt": [
+        [
+          594.95996,
+          841.91998
+        ],
+        [
+          594.95996,
+          841.91998
+        ]
+      ],
+      "verifiedTextFacts": 107,
+      "verifiedLinkTargets": 3,
+      "imageObjects": 1,
+      "sourceImageChecks": [
+        {
+          "path": "/person/images/0/src",
+          "size": [
+            266,
+            266
+          ],
+          "bestChannelRmsDifference": 0.27080719493912786,
+          "matchesSourcePortrait": true
+        }
+      ],
+      "charactersWithinPage": 2970,
+      "charactersPerPage": [
+        1910,
+        1060
+      ],
+      "maximumTextRelativeLuminance": 0.11542612682172972,
+      "result": "pass",
+      "limits": "Geometry/text/annotation checks supplement visual inspection; no browser print-dialog test claimed."
+    }
+  ]
+}

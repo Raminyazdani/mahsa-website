@@ -1,0 +1,31 @@
+# These directories are not needed for npm ci + npm run check.
+node_modules/
+dist/
+output/
+_archive/
+_handoff/
+private-handoff/
+private_handoff/
+screenshots/
+docs/evidence/screens/
+src/content/generated.ts
+
+# Do not upload local authentication or Vercel link state.
+.git/
+.vercel/
+.auth/
+auth/
+credentials/
+.env
+.env.*
+auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep content/, scripts/, tests/, public/ and docs/evidence/pdf/:
+# the static build and verified PDF workflow use these sources and receipts.

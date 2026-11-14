@@ -1,0 +1,98 @@
+/* ───────── Laboratory mode: one environment, stations open in place ───────── */
+.labmap { display: none; }
+.lab-h1 { display: none; }
+[data-mode='lab']:not([data-station='start']) .lab-h1 { display: block; }
+[data-mode='lab'] .lab-shell { display: grid; grid-template-columns: minmax(300px, 360px) minmax(0, 1fr); padding-top: var(--topbar-h); }
+[data-mode='lab'] .stations { padding-top: 0; min-width: 0; }
+[data-mode='lab'] .labmap { position: sticky; top: var(--topbar-h); height: calc(100svh - var(--topbar-h)); display: flex; flex-direction: column; gap: 14px; padding: 20px 18px 24px; overflow: auto; border-right: 1px solid var(--line);
+  background: linear-gradient(180deg, color-mix(in oklab, var(--bg-2) 70%, transparent), color-mix(in oklab, var(--bg) 70%, transparent)); }
+[data-mode='lab'] .station:not(.is-active) { display: none; }
+[data-mode='lab'] .transfer { display: none; }
+[data-mode='lab'] .station { width: auto; margin: 0 clamp(16px, 3.4vw, 56px); padding: clamp(32px, 5vw, 64px) 0 140px; }
+[data-mode='lab'] .hero { min-height: calc(100svh - var(--topbar-h)); margin: 0; padding-top: clamp(28px, 6vh, 64px); }
+[data-mode='lab'] .hero .badge-rig { top: calc(var(--topbar-h) * -1); }
+[data-mode='lab'] .footer { display: none; }
+.labmap-head { display: flex; align-items: center; justify-content: space-between; }
+.labmap-toggle { display: none; width: auto; padding: 0 10px; gap: 6px; font: 600 12px/1 var(--font-text); }
+.labmap-figure { border-radius: 20px; background: var(--bg-3); border: 1px solid var(--line); overflow: hidden; }
+.labmap-svg { width: 100%; height: auto; }
+.labmap-svg .lm-floor { fill: var(--bg-2); stroke: var(--line-2); }
+.labmap-svg .lm-floor-line { stroke: var(--line); stroke-width: .8; }
+.labmap-svg .lm-wall { fill: var(--bg-4); opacity: .55; }
+.labmap-svg .lm-wall--r { opacity: .35; }
+.labmap-svg .lm-window { fill: color-mix(in oklab, var(--c-cfp) 25%, transparent); }
+.labmap-svg .lm-route { fill: none; stroke: var(--c-uv); stroke-width: 1.6; stroke-dasharray: 3 6; opacity: .7; animation: route calc(2.4s / max(var(--motion), .2)) linear infinite; }
+@keyframes route { to { stroke-dashoffset: -36; } }
+.labmap-svg .iso-t { fill: var(--iso-t, #ffffff); } .labmap-svg .iso-l { fill: var(--iso-l, #d7d9e8); } .labmap-svg .iso-r { fill: var(--iso-r, #c3c6db); }
+.labmap-svg polygon { stroke: rgba(0, 0, 0, .12); stroke-width: .6; stroke-linejoin: round; }
+[data-theme='dark'] .labmap-svg .iso { --iso-t: #2C2850; --iso-l: #1E1B38; --iso-r: #171530; }
+[data-theme='dark'] .labmap-svg .lm-ped { --iso-t: #24213F; --iso-l: #191731; --iso-r: #131126; }
+[data-theme='light'] .labmap-svg .lm-ped { --iso-t: #ECEEF6; --iso-l: #D3D6E7; --iso-r: #C1C4D9; }
+.labmap-svg .lm-ped-top { fill: transparent; }
+.labmap-svg .lm-dev2 { --iso-t: #3a3660; --iso-l: #2a2747; --iso-r: #211e3a; }
+.labmap-svg .lm-glow-uv { fill: var(--c-uv); filter: drop-shadow(0 0 4px var(--c-uv)); }
+.labmap-svg .lm-glow-ch { fill: var(--ch); filter: drop-shadow(0 0 4px var(--ch)); }
+.labmap-svg .lm-chip-off { fill: rgba(255, 255, 255, .15); }
+.labmap-svg .lm-lid { fill: rgba(255, 162, 58, .35); stroke: rgba(255, 162, 58, .7); }
+.labmap-svg .lm-bottle { --iso-t: var(--ch); --iso-l: color-mix(in oklab, var(--ch) 70%, black); --iso-r: color-mix(in oklab, var(--ch) 55%, black); }
+.labmap-svg .lm-b1, .labmap-svg .lm-b3 { --ch: var(--c-dapi); } .labmap-svg .lm-b2 { --ch: var(--c-etbr); } .labmap-svg .lm-b4 { --ch: var(--c-yfp); }
+.labmap-svg .lm-slide { --iso-t: #e8f0ff; --iso-l: #c8d4f0; --iso-r: #b8c4e0; }
+.labmap-svg .lm-glass { --iso-t: rgba(200, 220, 255, .35); --iso-l: rgba(200, 220, 255, .22); --iso-r: rgba(200, 220, 255, .18); }
+.labmap-svg .lm-strip { --iso-t: #fff; } .labmap-svg .lm-st0 { --iso-l: #2CF5A0; --iso-r: #1fae72; } .labmap-svg .lm-st1 { --iso-l: #FFD23D; --iso-r: #c9a52e; } .labmap-svg .lm-st2 { --iso-l: #FF5C7A; --iso-r: #c74560; }
+.labmap-svg .lm-paper { fill: #FBFAF4; }
+.labmap-svg .lm-shelf-line { stroke: rgba(255, 255, 255, .4); stroke-width: 1; }
+.labmap-svg .lm-ring { fill: color-mix(in oklab, var(--ch) 20%, transparent); stroke: var(--ch); stroke-width: 1.5; opacity: 0; transition: opacity .3s; }
+.labmap-svg .lm-station { cursor: pointer; }
+.labmap-svg .lm-station:hover .lm-ring { opacity: .5; }
+.labmap-svg .lm-station.is-here .lm-ring { opacity: 1; filter: drop-shadow(0 0 8px var(--ch)); animation: ring-pulse calc(2s / max(var(--motion), .2)) ease-in-out infinite; }
+@keyframes ring-pulse { 50% { opacity: .55; } }
+.labmap-svg .lm-no { font: 700 9px var(--font-mono); fill: var(--ink-3); text-anchor: middle; }
+.labmap-svg .lm-station.is-here .lm-no { fill: var(--ch-ink); }
+.labmap-list { display: grid; gap: 4px; }
+.labmap-list a { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; grid-template-areas: 'num name led' 'num ch led'; align-items: center; column-gap: 10px; padding: 9px 12px; border-radius: 12px; text-decoration: none; border: 1px solid transparent; transition: background .2s, border-color .2s; }
+.lm-num { grid-area: num; font: 700 11px/1 var(--font-mono); color: var(--ch-ink); }
+.lm-name { grid-area: name; font: 620 15px/1.2 var(--font-display); }
+.lm-ch { grid-area: ch; font: 500 9.5px/1.4 var(--font-mono); letter-spacing: .05em; color: var(--ink-3); text-transform: uppercase; }
+.labmap-list .led { grid-area: led; opacity: .3; }
+.labmap-list a:hover { background: var(--bg-3); }
+.labmap-list a[aria-current='page'] { background: var(--panel); border-color: color-mix(in oklab, var(--ch) 50%, transparent); box-shadow: 0 0 calc(22px * var(--glow)) color-mix(in oklab, var(--ch) 20%, transparent); }
+.labmap-list a[aria-current='page'] .led { opacity: 1; }
+.labmap-hint { font-size: 12px; color: var(--ink-3); }
+.station.is-entering { animation: station-on .7s var(--ease-device); }
+.station.is-entering::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--ch), transparent); box-shadow: 0 0 20px var(--ch); animation: scan .8s var(--ease-light) forwards; pointer-events: none; z-index: 5; }
+@keyframes station-on { from { opacity: 0; transform: translateY(14px); filter: blur(5px) brightness(1.4); } }
+@keyframes scan { from { transform: translateY(0); opacity: 1; } to { transform: translateY(70vh); opacity: 0; } }
+
+/* ───────── Focus mode: calm reading ───────── */
+[data-focus='on'] { --glow: 0; }
+[data-focus='on'] body::before, [data-focus='on'] .transfer, [data-focus='on'] .hero-grid, [data-focus='on'] .hero-glow, [data-focus='on'] .uv-cone { display: none; }
+[data-focus='on'] .hero-last { animation: none; background: none; color: var(--ink); }
+[data-focus='on'] .hero-name, [data-focus='on'] .hero-last { text-shadow: none; filter: none; }
+[data-focus='on'] .station-intro, [data-focus='on'] .prose { max-width: 74ch; font-size: 18px; line-height: 1.75; }
+[data-focus='on'] .profile-summary { filter: none; opacity: 1; }
+[data-focus='on'] .vessel { transform: none; }
+[data-focus='on'] .vessel-liquid i, [data-focus='on'] .cyc-run, [data-focus='on'] .term-cursor, [data-focus='on'] .tip--live, [data-focus='on'] .labmap-svg .lm-route { animation: none; }
+[data-focus='on'] .gel-canvas { opacity: .85; }
+
+/* ───────── Motion off: no animation, final states only ───────── */
+[data-motion='off'] *, [data-motion='off'] *::before, [data-motion='off'] *::after { animation-duration: .001ms !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; transition-delay: 0s !important; }
+[data-motion='off'] .hero-last { background: none; color: var(--ink); }
+[data-motion='gentle'] .vessel { --tilt: 0deg !important; }
+
+/* ───────── Theme change: the lab lights switch on from where you clicked ───────── */
+::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+::view-transition-new(root) { animation: lights-on .8s var(--ease-light) both; }
+@keyframes lights-on { from { clip-path: circle(0 at var(--vt-x, 90%) var(--vt-y, 30px)); } to { clip-path: circle(160vmax at var(--vt-x, 90%) var(--vt-y, 30px)); } }
+
+/* ───────── Print (site pages; the CV page has its own print sheet) ───────── */
+@media print {
+  .topbar, .console, .sheet, .scrim, .palette, .toast, .intro, .labmap, .transfer, .hero-stage, .hero-backdrop, .badge-rig, .psu, .hero-next, .uv-lamp, .bench-controls, .ticket, .timelapse, .growth-stage, .apparatus, .footer, .exp-index, .star, .copy, .printer-body, .printer-reprint { display: none !important; }
+  html, body { background: #fff !important; color: #111 !important; }
+  body::before { display: none; }
+  .station { display: block !important; width: auto; padding: 12mm 0; break-inside: auto; }
+  .hero { min-height: 0; display: block; padding: 0; }
+  .log-detail { display: grid !important; }
+  .label-paper { transform: none !important; }
+  .instruments { display: none !important; }
+  .shelf { display: block !important; }
+}

@@ -1,0 +1,84 @@
+@font-face { font-family: 'Bricolage Grotesque'; src: url('/fonts/bricolage-grotesque-latin-opsz.woff2') format('woff2'); font-weight: 200 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-latin-wght.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Martian Mono'; src: url('/fonts/martian-mono-latin-wdth.woff2') format('woff2'); font-weight: 100 800; font-stretch: 75% 112.5%; font-style: normal; font-display: swap; }
+
+:root {
+  --font-display: 'Bricolage Grotesque', 'Inter', system-ui, sans-serif;
+  --font-text: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Martian Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+
+  /* Luminous fluorophores — identical in both lights; text uses the *-ink tokens. */
+  --c-uv: #8B5CFF; --c-etbr: #FF4FA3; --c-sybr: #2CF5A0; --c-dapi: #5C7CFF; --c-cfp: #26E0FF;
+  --c-yfp: #D8FF3D; --c-he: #F25FC0; --c-ph: #FFB020; --c-cy5: #FF5C7A; --c-coral: #FF7A59;
+  --c-amber: #FFB547; --c-dye: #4C5BFF;
+
+  --r-xs: 6px; --r-sm: 10px; --r-md: 16px; --r-lg: 24px; --r-xl: 34px; --r-pill: 999px;
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px; --s-10: 144px;
+  --shell: min(1320px, calc(100vw - 2 * var(--gutter)));
+  --gutter: clamp(16px, 4vw, 56px);
+  --topbar-h: 68px;
+
+  /* Motion grammar: each material moves differently. */
+  --ease-device: cubic-bezier(.2, .9, .25, 1);
+  --ease-switch: cubic-bezier(.34, 1.5, .64, 1);
+  --ease-liquid: cubic-bezier(.45, .05, .25, 1);
+  --ease-cell: cubic-bezier(.22, 1.2, .36, 1);
+  --ease-light: cubic-bezier(.16, 1, .3, 1);
+  --t-press: 110ms; --t-switch: 240ms; --t-panel: 420ms; --t-scene: 900ms;
+  --motion: 1;
+}
+
+/* ── Darkroom: UV lab with the lights off. Local glow, deep surfaces. ── */
+:root, [data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #07060F; --bg-2: #0E0C1D; --bg-3: #15132A; --bg-4: #1D1A38;
+  --ink: #F2F0FF; --ink-2: #BDB9DF; --ink-3: #9692BD;
+  --line: rgba(226, 222, 255, .10); --line-2: rgba(226, 222, 255, .18); --line-3: rgba(226, 222, 255, .30);
+  --panel: rgba(17, 15, 34, .78); --panel-solid: #110F22; --panel-hi: inset 0 1px 0 rgba(255, 255, 255, .06);
+  --device: linear-gradient(180deg, #211E3D 0%, #15132B 100%); --device-edge: rgba(255, 255, 255, .08);
+  --device-shadow: 0 1px 0 rgba(255, 255, 255, .05) inset, 0 -1px 0 rgba(0, 0, 0, .5) inset, 0 18px 40px -18px rgba(0, 0, 0, .8);
+  --key: linear-gradient(180deg, #27244A, #1B1935); --key-edge: #0A0916; --key-ink: #ECE9FF;
+  --lcd-bg: #08130F; --lcd-ink: #8DFFC6; --lcd-dim: rgba(141, 255, 198, .35); --lcd-glow: 0 0 10px rgba(80, 255, 170, .45);
+  --glass: rgba(170, 160, 255, .06); --glass-edge: rgba(200, 190, 255, .22);
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 30px -10px rgba(0, 0, 0, .6);
+  --shadow-2: 0 2px 8px rgba(0, 0, 0, .45), 0 30px 80px -20px rgba(0, 0, 0, .75);
+  --glow: 1; --mark-chip: #120F26; --mark-ring: #E9E6FF;
+  --c-uv-ink: #A78BFF; --c-etbr-ink: #FF6DB4; --c-sybr-ink: #3CF7AA; --c-dapi-ink: #8EA4FF; --c-cfp-ink: #4FE6FF;
+  --c-yfp-ink: #DDFF4F; --c-he-ink: #F77ACB; --c-ph-ink: #FFBE45; --c-cy5-ink: #FF7C93; --c-coral-ink: #FF9273;
+  --fill-ink: #07060F;
+}
+
+/* ── Daylight: bright, colourful bench. Fluorescent colours become highlighter fills. ── */
+[data-theme='light'] {
+  color-scheme: light;
+  --bg: #F3F4FA; --bg-2: #FFFFFF; --bg-3: #E9EBF6; --bg-4: #DFE2F1;
+  --ink: #15132C; --ink-2: #45425F; --ink-3: #5F5C7C;
+  --line: rgba(21, 19, 44, .10); --line-2: rgba(21, 19, 44, .17); --line-3: rgba(21, 19, 44, .30);
+  --panel: rgba(255, 255, 255, .82); --panel-solid: #FFFFFF; --panel-hi: inset 0 1px 0 #FFFFFF;
+  --device: linear-gradient(180deg, #FFFFFF 0%, #EEF0F8 100%); --device-edge: rgba(21, 19, 44, .10);
+  --device-shadow: 0 1px 0 #FFFFFF inset, 0 -1px 0 rgba(21, 19, 44, .06) inset, 0 18px 36px -20px rgba(40, 30, 110, .35);
+  --key: linear-gradient(180deg, #FFFFFF, #ECEEF7); --key-edge: #C9CCE0; --key-ink: #15132C;
+  --lcd-bg: #D9E4CF; --lcd-ink: #1C2A17; --lcd-dim: rgba(28, 42, 23, .38); --lcd-glow: none;
+  --glass: rgba(120, 110, 220, .06); --glass-edge: rgba(80, 70, 180, .22);
+  --shadow-1: 0 1px 2px rgba(21, 19, 44, .06), 0 10px 28px -12px rgba(46, 30, 130, .18);
+  --shadow-2: 0 2px 8px rgba(21, 19, 44, .06), 0 30px 70px -24px rgba(46, 30, 130, .28);
+  --glow: .35; --mark-chip: #15132C; --mark-ring: #E9E6FF;
+  --c-uv-ink: #5A2DDE; --c-etbr-ink: #BC1467; --c-sybr-ink: #00784C; --c-dapi-ink: #2D48D3; --c-cfp-ink: #006F86;
+  --c-yfp-ink: #566300; --c-he-ink: #A8147A; --c-ph-ink: #8F5400; --c-cy5-ink: #BC1E42; --c-coral-ink: #B23D1C;
+  --fill-ink: #15132C;
+}
+
+/* Channels: each station carries one fluorophore. */
+[data-ch='uv'] { --ch: var(--c-uv); --ch-ink: var(--c-uv-ink); }
+[data-ch='etbr'] { --ch: var(--c-etbr); --ch-ink: var(--c-etbr-ink); }
+[data-ch='sybr'] { --ch: var(--c-sybr); --ch-ink: var(--c-sybr-ink); }
+[data-ch='dapi'] { --ch: var(--c-dapi); --ch-ink: var(--c-dapi-ink); }
+[data-ch='cfp'] { --ch: var(--c-cfp); --ch-ink: var(--c-cfp-ink); }
+[data-ch='yfp'] { --ch: var(--c-yfp); --ch-ink: var(--c-yfp-ink); }
+[data-ch='he'] { --ch: var(--c-he); --ch-ink: var(--c-he-ink); }
+[data-ch='ph'] { --ch: var(--c-ph); --ch-ink: var(--c-ph-ink); }
+[data-ch='cy5'] { --ch: var(--c-cy5); --ch-ink: var(--c-cy5-ink); }
+[data-ch='coral'] { --ch: var(--c-coral); --ch-ink: var(--c-coral-ink); }
+
+[data-motion='gentle'] { --motion: .45; }
+[data-motion='off'] { --motion: 0; }

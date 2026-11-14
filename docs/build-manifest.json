@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-11-14T22:20:27.338Z",
+  "node": "v24.13.1",
+  "routes": 24,
+  "outputs": {
+    "dist/assets/app.js": {
+      "bytes": 106681
+    },
+    "dist/assets/chunks/gel-scene-VVYSZMEO.js.LEGAL.txt": {
+      "bytes": 188
+    },
+    "dist/assets/chunks/gel-scene-VVYSZMEO.js": {
+      "bytes": 588208
+    },
+    "dist/assets/chunks/chunk-LGL7EFAL.js": {
+      "bytes": 1591
+    },
+    "dist/assets/app.css": {
+      "bytes": 94938
+    }
+  }
+}
